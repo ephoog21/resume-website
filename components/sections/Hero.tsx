@@ -37,13 +37,11 @@ export function Hero({ data }: Props) {
           </p>
 
           <p className="mt-10 text-lg lg:text-xl leading-relaxed text-parchment-dim animate-fade-up [animation-delay:240ms]">
-            I&rsquo;m an analytics leader with 8+ years building KPI systems,
-            reporting platforms, and AI-enabled workflows for go-to-market and
-            operations teams. Most of that time has been at security and
-            proptech companies &mdash; Mimecast, Rapid7, Latch, CyberArk &mdash;
-            turning ambiguous problems into data foundations, dashboards, and
-            automations that leaders and frontline teams actually use.
-            Currently consulting independently.
+            I take ambiguous business problems and turn them into the data
+            foundations, KPI systems, and dashboards that leaders run their
+            week on &mdash; then I retire the manual layer underneath with
+            AI-enabled workflows. Eight-plus years of it, mostly in
+            go-to-market and operations. Currently consulting independently.
           </p>
 
           <p className="mt-8 text-sm text-parchment-mute animate-fade-up [animation-delay:340ms]">
