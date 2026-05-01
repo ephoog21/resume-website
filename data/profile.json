@@ -1,0 +1,1824 @@
+{
+  "generatedAt": "2026-05-01T17:25:14.586Z",
+  "profile": {
+    "name": "Ed Hoogasian",
+    "location": "Boston, MA / Remote",
+    "email": "ed.hoogasian@gmail.com",
+    "phone": "508-340-7588",
+    "linkedin": "linkedin.com/in/edhoogasian/",
+    "headline": "Senior Analytics & AI Strategy Leader",
+    "summary": "Analytics and AI strategy leader with 8+ years building KPI systems, scalable reporting/data products, GTM/customer intelligence, market intelligence, executive reporting, and AI-enabled workflow automation. Strong at translating ambiguous business problems into reliable data foundations, dashboards, operating rhythms, and productized workflows that leaders and frontline teams adopt.",
+    "differentiators": [
+      "Hybrid analytics + product/operator profile: can frame messy problems, build the solution, validate it, roll it out, and explain it to executives.",
+      "Proven business impact: $5.5M+ ARR impact from ICP/segmentation work, 2,000+ hours reclaimed through automation, 15%+ conversion improvement from qualification/outreach guidance, and 30-50% operational coordination reduction in supply chain planning contexts.",
+      "Company-name integrity: canonical experience keeps Mimecast, Rapid7, Latch, CyberArk, and CocoChew rather than anonymized source variants.",
+      "AI implementation credibility: prompt frameworks, LLM workflows, agentic patterns, contextual memory, eval/guardrails, structured extraction, document workflows, and client-facing portals."
+    ],
+    "personalNotes": "Proud girl dad; unprofessional golfer; professional dog lover; movie nerd; enjoys good beer and whiskey."
+  },
+  "highlights": [
+    {
+      "id": "ACH001",
+      "metric": "$5.5M+ net-new ARR",
+      "title": "ICP redefinition that moved ARR",
+      "context": "Redefined the Ideal Customer Profile using CRM, ERP, third-party firmographic data, and qualitative inputs from marketing, sales, product, and customer success; downstream targeting/outreach drove $5.5M+ net-new ARR improvement.",
+      "company": "Rapid7",
+      "skillTags": [
+        "ICP",
+        "segmentation",
+        "GTM analytics",
+        "firmographics",
+        "executive recommendation"
+      ]
+    },
+    {
+      "id": "ACH002",
+      "metric": "2,000+ hours reclaimed",
+      "title": "Manual workflow automation at scale",
+      "context": "Identified and automated manual workflows and optimized data pipelines, reclaiming 2,000+ off-clock work hours and improving trust in pipeline/bookings reporting.",
+      "company": "Rapid7",
+      "skillTags": [
+        "automation",
+        "workflow optimization",
+        "pipeline reliability",
+        "cross-functional collaboration"
+      ]
+    },
+    {
+      "id": "ACH004",
+      "metric": "15%+ conversion improvement",
+      "title": "Conversion lift via prospect qualification",
+      "context": "Improved conversion rates 15%+ by defining ideal prospect qualifications and delivering time-sensitive outreach guidance based on internal/external data and anecdotal evidence.",
+      "company": "Latch",
+      "skillTags": [
+        "conversion analytics",
+        "prospect qualification",
+        "outreach guidance",
+        "driver analysis"
+      ]
+    },
+    {
+      "id": "ACH005",
+      "metric": "executive-to-IC reporting cadence",
+      "title": "Exec-to-IC reporting cadence",
+      "context": "Built KPI framework and automated Tableau reporting for annual partner-program initiatives, consumed daily/weekly from executive board/EXCO to individual contributors.",
+      "company": "Mimecast",
+      "skillTags": [
+        "KPI design",
+        "Tableau",
+        "executive reporting",
+        "partner programs",
+        "operating rhythm"
+      ]
+    },
+    {
+      "id": "ACH006",
+      "metric": "thousands of managed services partners globally",
+      "title": "Global MSP transition tracking",
+      "context": "Created end-to-end tracking for a global MSP transition program, integrating DocuSign, Salesforce, DWH, and certification data into pipelines/dashboards with accuracy criteria and automated cadence reports.",
+      "company": "Mimecast",
+      "skillTags": [
+        "data integration",
+        "project tracking",
+        "Salesforce",
+        "DocuSign",
+        "KPI systems",
+        "program analytics"
+      ]
+    },
+    {
+      "id": "ACH003",
+      "metric": "addressable-market model across account/building granularity",
+      "title": "TAM modeled to building-level detail",
+      "context": "Built TAM and market intelligence datasets from executive rollups down to account/building-level detail, enabling territory/quota planning, whitespace analysis, and strategic partnership planning.",
+      "company": "Latch",
+      "skillTags": [
+        "TAM",
+        "market intelligence",
+        "territory planning",
+        "quota planning",
+        "whitespace"
+      ]
+    },
+    {
+      "id": "ACH010",
+      "metric": "repeatable AI workflow patterns",
+      "title": "LLM workflows with evals & guardrails",
+      "context": "Implemented advanced LLM workflows with prompt versioning, contextual memory/session layering, guardrails, evaluation checks, structured extraction, summarization, and human review.",
+      "company": "Independent AI & Analytics Consultant",
+      "skillTags": [
+        "LLM",
+        "prompt engineering",
+        "RAG concepts",
+        "evals",
+        "guardrails",
+        "structured extraction",
+        "contextual memory"
+      ]
+    },
+    {
+      "id": "ACH008",
+      "metric": "hundreds of hours saved",
+      "title": "Secure intake & document portal",
+      "context": "Built secure client intake/document portal digitizing collection, review, lifecycle tracking, and status visibility; eliminated scanning/printing/sorting overhead and saved hundreds of administrative hours.",
+      "company": "Independent AI & Analytics Consultant",
+      "skillTags": [
+        "client portal",
+        "secure document workflows",
+        "SaaS app",
+        "operational automation",
+        "data integrity"
+      ]
+    },
+    {
+      "id": "ACH011",
+      "metric": "30-50% coordination reduction",
+      "title": "Supply-chain coordination reduction",
+      "context": "Led supply-chain optimization analysis across procurement/fulfillment/manufacturing signals, improving planning visibility and reducing manual coordination by roughly 30-50%",
+      "company": "Latch",
+      "skillTags": [
+        "supply chain analytics",
+        "operations analytics",
+        "standardized metrics",
+        "automated reporting"
+      ]
+    },
+    {
+      "id": "ACH012",
+      "metric": "millions in pipeline/won business; earnings-call references",
+      "title": "Data products referenced in earnings calls",
+      "context": "Built data products for competitive intelligence, TAM, data-driven prospecting, lead generation/conversion, territory planning, forecasting, and GTM funnel reporting; outputs generated millions in pipeline/won business and were referenced in earnings calls.",
+      "company": "Mimecast",
+      "skillTags": [
+        "competitive intelligence",
+        "TAM",
+        "forecasting",
+        "lead conversion",
+        "Tableau",
+        "Salesforce",
+        "CRM migration"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "id": "EXP001",
+      "company": "Independent AI & Analytics Consultant",
+      "title": "Independent AI & Analytics Consultant / Product Development + Automation",
+      "start": "2025-04",
+      "end": "Present",
+      "startLabel": "Apr 2025",
+      "endLabel": "Present",
+      "location": "Boston, MA / Remote",
+      "description": "Own end-to-end analytics, automation, and product-development engagements: discovery, requirements, solution design, build, QA, rollout, documentation, and iteration.",
+      "domains": [
+        "AI automation",
+        "analytics consulting",
+        "workflow apps",
+        "BI dashboards",
+        "client portals",
+        "product development"
+      ],
+      "achievements": [
+        {
+          "id": "ACH008",
+          "text": "Built secure client intake/document portal digitizing collection, review, lifecycle tracking, and status visibility; eliminated scanning/printing/sorting overhead and saved hundreds of administrative hours.",
+          "metric": "hundreds of hours saved",
+          "skillTags": [
+            "client portal",
+            "secure document workflows",
+            "SaaS app",
+            "operational automation",
+            "data integrity"
+          ],
+          "bestFor": [
+            "product management",
+            "automation consulting",
+            "AI/analytics consulting",
+            "ops roles"
+          ]
+        },
+        {
+          "id": "ACH009",
+          "text": "Designed technician-first field inspection application and customer portal that reduces inspection paperwork to near zero, improves data accuracy, and increases jobs completed per technician per day.",
+          "metric": "paperwork near zero; higher jobs/tech/day",
+          "skillTags": [
+            "mobile app",
+            "workflow digitization",
+            "field operations",
+            "real-time capture",
+            "customer portal"
+          ],
+          "bestFor": [
+            "product roles",
+            "ops automation",
+            "BI consulting",
+            "field-services technology"
+          ]
+        },
+        {
+          "id": "ACH010",
+          "text": "Implemented advanced LLM workflows with prompt versioning, contextual memory/session layering, guardrails, evaluation checks, structured extraction, summarization, and human review.",
+          "metric": "repeatable AI workflow patterns",
+          "skillTags": [
+            "LLM",
+            "prompt engineering",
+            "RAG concepts",
+            "evals",
+            "guardrails",
+            "structured extraction",
+            "contextual memory"
+          ],
+          "bestFor": [
+            "AI product manager",
+            "AI analyst",
+            "automation consultant",
+            "data/AI strategy"
+          ]
+        },
+        {
+          "id": "ACH014",
+          "text": "Created dashboards and recurring leadership reports for pipeline, utilization, SLA performance, revenue, throughput, quality, and bottleneck monitoring, with standardized definitions and quality checks.",
+          "metric": "repeatable operating-rhythm assets",
+          "skillTags": [
+            "KPI frameworks",
+            "dashboards",
+            "leadership reporting",
+            "telemetry",
+            "data quality"
+          ],
+          "bestFor": [
+            "BI manager",
+            "analytics consulting",
+            "operations analytics",
+            "CS analytics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EXP002",
+      "company": "Mimecast",
+      "title": "Senior Strategic Analyst, WW Partner Programs",
+      "start": "2024-03",
+      "end": "2025-04",
+      "startLabel": "Mar 2024",
+      "endLabel": "Apr 2025",
+      "location": "Boston, MA / Hybrid",
+      "description": "Built KPI frameworks, automated Tableau reporting, partner-program tracking, data pipelines, and strategic profitability analysis for global partner programs and the MSP transition.",
+      "domains": [
+        "Partner programs",
+        "GTM analytics",
+        "executive reporting",
+        "pricing/packaging",
+        "MSP transition"
+      ],
+      "achievements": [
+        {
+          "id": "ACH005",
+          "text": "Built KPI framework and automated Tableau reporting for annual partner-program initiatives, consumed daily/weekly from executive board/EXCO to individual contributors.",
+          "metric": "executive-to-IC reporting cadence",
+          "skillTags": [
+            "KPI design",
+            "Tableau",
+            "executive reporting",
+            "partner programs",
+            "operating rhythm"
+          ],
+          "bestFor": [
+            "BI leadership",
+            "analytics manager",
+            "executive dashboards",
+            "partner/GTM analytics"
+          ]
+        },
+        {
+          "id": "ACH006",
+          "text": "Created end-to-end tracking for a global MSP transition program, integrating DocuSign, Salesforce, DWH, and certification data into pipelines/dashboards with accuracy criteria and automated cadence reports.",
+          "metric": "thousands of managed services partners globally",
+          "skillTags": [
+            "data integration",
+            "project tracking",
+            "Salesforce",
+            "DocuSign",
+            "KPI systems",
+            "program analytics"
+          ],
+          "bestFor": [
+            "BI manager",
+            "data operations",
+            "program analytics",
+            "GTM ops"
+          ]
+        },
+        {
+          "id": "ACH007",
+          "text": "Led profitability analysis for proposed pricing/packaging overhaul, including consolidation of hundreds of legacy SKUs into bundle offerings alongside a cloud-integrated product platform launch.",
+          "metric": "hundreds of SKUs analyzed/consolidated",
+          "skillTags": [
+            "profitability analysis",
+            "pricing & packaging",
+            "SKU rationalization",
+            "telemetry",
+            "transition readiness"
+          ],
+          "bestFor": [
+            "strategy analytics",
+            "product analytics",
+            "pricing analytics",
+            "FP&A-adjacent roles"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EXP003",
+      "company": "Rapid7",
+      "title": "Lead Business Analyst",
+      "start": "2022-10",
+      "end": "2023-08",
+      "startLabel": "Oct 2022",
+      "endLabel": "Aug 2023",
+      "location": "Boston, MA",
+      "description": "Led cross-functional strategic analysis, redefined ICP using CRM/ERP/firmographic and qualitative inputs, automated workflows, and refactored key pipeline/bookings assets.",
+      "domains": [
+        "ICP",
+        "segmentation",
+        "GTM analytics",
+        "stakeholder leadership",
+        "automation",
+        "data pipelines"
+      ],
+      "achievements": [
+        {
+          "id": "ACH001",
+          "text": "Redefined the Ideal Customer Profile using CRM, ERP, third-party firmographic data, and qualitative inputs from marketing, sales, product, and customer success; downstream targeting/outreach drove $5.5M+ net-new ARR improvement.",
+          "metric": "$5.5M+ net-new ARR",
+          "skillTags": [
+            "ICP",
+            "segmentation",
+            "GTM analytics",
+            "firmographics",
+            "executive recommendation"
+          ],
+          "bestFor": [
+            "GTM analytics",
+            "RevOps",
+            "strategy",
+            "CS analytics",
+            "product analytics"
+          ]
+        },
+        {
+          "id": "ACH002",
+          "text": "Identified and automated manual workflows and optimized data pipelines, reclaiming 2,000+ off-clock work hours and improving trust in pipeline/bookings reporting.",
+          "metric": "2,000+ hours reclaimed",
+          "skillTags": [
+            "automation",
+            "workflow optimization",
+            "pipeline reliability",
+            "cross-functional collaboration"
+          ],
+          "bestFor": [
+            "BI manager",
+            "data operations",
+            "analytics engineering",
+            "operational excellence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EXP004",
+      "company": "Latch",
+      "title": "Senior Analyst, Enterprise Analytics",
+      "start": "2021-11",
+      "end": "2022-10",
+      "startLabel": "Nov 2021",
+      "endLabel": "Oct 2022",
+      "location": "Remote",
+      "description": "Built TAM, market, territory/quota, whitespace, performance, and supply-chain planning datasets; supported conversion improvement and operational planning visibility.",
+      "domains": [
+        "Market intelligence",
+        "TAM",
+        "territory planning",
+        "quota planning",
+        "supply chain analytics",
+        "conversion analytics"
+      ],
+      "achievements": [
+        {
+          "id": "ACH003",
+          "text": "Built TAM and market intelligence datasets from executive rollups down to account/building-level detail, enabling territory/quota planning, whitespace analysis, and strategic partnership planning.",
+          "metric": "addressable-market model across account/building granularity",
+          "skillTags": [
+            "TAM",
+            "market intelligence",
+            "territory planning",
+            "quota planning",
+            "whitespace"
+          ],
+          "bestFor": [
+            "GTM strategy",
+            "commercial insights",
+            "revenue planning",
+            "product strategy"
+          ]
+        },
+        {
+          "id": "ACH004",
+          "text": "Improved conversion rates 15%+ by defining ideal prospect qualifications and delivering time-sensitive outreach guidance based on internal/external data and anecdotal evidence.",
+          "metric": "15%+ conversion improvement",
+          "skillTags": [
+            "conversion analytics",
+            "prospect qualification",
+            "outreach guidance",
+            "driver analysis"
+          ],
+          "bestFor": [
+            "CS/GTM analytics",
+            "lifecycle analytics",
+            "growth strategy"
+          ]
+        },
+        {
+          "id": "ACH011",
+          "text": "Led supply-chain optimization analysis across procurement/fulfillment/manufacturing signals, improving planning visibility and reducing manual coordination by roughly 30-50%",
+          "metric": "30-50% coordination reduction",
+          "skillTags": [
+            "supply chain analytics",
+            "operations analytics",
+            "standardized metrics",
+            "automated reporting"
+          ],
+          "bestFor": [
+            "operations analytics",
+            "BI manager",
+            "process optimization",
+            "commercial analytics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EXP005",
+      "company": "CyberArk",
+      "title": "Senior GTM Business Analyst",
+      "start": "2020-11",
+      "end": "2021-11",
+      "startLabel": "Nov 2020",
+      "endLabel": "Nov 2021",
+      "location": "Newton, MA / Remote",
+      "description": "Developed global TAM and lead-to-revenue measurement frameworks to identify greenfield/expansion opportunities and improve attribution/campaign reporting.",
+      "domains": [
+        "TAM",
+        "GTM strategy",
+        "attribution",
+        "marketing analytics",
+        "sales analytics",
+        "data engineering partnership"
+      ],
+      "achievements": [
+        {
+          "id": "ACH013",
+          "text": "Built lead-to-revenue funnel foundation for attribution and campaign performance, bridging marketing, operations, data engineering, and sales teams.",
+          "metric": "new funnel/attribution foundation",
+          "skillTags": [
+            "funnel analytics",
+            "attribution",
+            "campaign performance",
+            "cross-functional alignment"
+          ],
+          "bestFor": [
+            "marketing analytics",
+            "revenue operations",
+            "data products"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EXP006",
+      "company": "Mimecast",
+      "title": "Business Intelligence Analyst II",
+      "start": "2017-06",
+      "end": "2020-11",
+      "startLabel": "Jun 2017",
+      "endLabel": "Nov 2020",
+      "location": "Lexington, MA",
+      "description": "Defined funnel metrics and automated reporting during CRM overhaul; built executive-visible data products for TAM, segmentation, prospecting, territory planning, forecasting, and conversion.",
+      "domains": [
+        "BI",
+        "CRM migration",
+        "GTM funnel",
+        "executive reporting",
+        "Tableau",
+        "Salesforce",
+        "metrics governance"
+      ],
+      "achievements": [
+        {
+          "id": "ACH012",
+          "text": "Built data products for competitive intelligence, TAM, data-driven prospecting, lead generation/conversion, territory planning, forecasting, and GTM funnel reporting; outputs generated millions in pipeline/won business and were referenced in earnings calls.",
+          "metric": "millions in pipeline/won business; earnings-call references",
+          "skillTags": [
+            "competitive intelligence",
+            "TAM",
+            "forecasting",
+            "lead conversion",
+            "Tableau",
+            "Salesforce",
+            "CRM migration"
+          ],
+          "bestFor": [
+            "BI",
+            "GTM analytics",
+            "revenue analytics",
+            "executive reporting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EXP007",
+      "company": "CocoChew",
+      "title": "Co-Founder / CTO / Entrepreneurial Operator",
+      "start": "2017-05",
+      "end": "Present / Dec 2025 in some variants",
+      "startLabel": "May 2017",
+      "endLabel": "Present",
+      "location": "Boston, MA",
+      "description": "Built and iterated D2C/B2B ecommerce platform, branding, marketing content, analytics instrumentation, and operational integrations for organic dog chew toys.",
+      "domains": [
+        "Entrepreneurship",
+        "ecommerce",
+        "marketing analytics",
+        "platform ops",
+        "branding",
+        "instrumentation"
+      ],
+      "achievements": [
+        {
+          "id": "ACH015",
+          "text": "Built and iterated ecommerce platform, marketing analytics instrumentation, operational integrations, branding, and content for D2C/B2B dog chew toy startup.",
+          "metric": "thousands of interactions and purchases",
+          "skillTags": [
+            "entrepreneurship",
+            "ecommerce",
+            "analytics instrumentation",
+            "marketing operations",
+            "product ownership"
+          ],
+          "bestFor": [
+            "startup",
+            "product",
+            "growth",
+            "operations",
+            "ecommerce analytics"
+          ]
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "EDU001",
+      "school": "University of New Hampshire",
+      "degree": "B.S., Information Systems; Entrepreneurial Studies / IT",
+      "location": "Durham, NH",
+      "start": "2013-08",
+      "end": "2017-05",
+      "startLabel": "Aug 2013",
+      "endLabel": "May 2017",
+      "description": "Undergraduate education in information systems with entrepreneurship and IT focus."
+    }
+  ],
+  "skillClusters": [
+    {
+      "cluster": "Analytics & BI",
+      "skills": [
+        {
+          "name": "SQL",
+          "category": "Technical",
+          "detail": "Snowflake SQL; analytics SQL; validation queries; performant schema navigation",
+          "evidence": "Evidence across all roles; primary technical backbone",
+          "roleIds": [
+            "EXP001",
+            "EXP002",
+            "EXP003",
+            "EXP004",
+            "EXP005",
+            "EXP006"
+          ]
+        },
+        {
+          "name": "Tableau",
+          "category": "BI / Visualization",
+          "detail": "executive dashboards; automated reporting; recurring readouts; BI adoption",
+          "evidence": "Mimecast KPI reporting; GTM reporting; executive decks",
+          "roleIds": [
+            "EXP002",
+            "EXP006"
+          ]
+        },
+        {
+          "name": "Power BI",
+          "category": "BI / Visualization",
+          "detail": "dashboarding; executive BI; client-facing BI",
+          "evidence": "Common keyword for BI manager/director roles",
+          "roleIds": [
+            "EXP001",
+            "EXP004"
+          ]
+        },
+        {
+          "name": "Looker",
+          "category": "BI / Visualization",
+          "detail": "self-service BI; dashboarding; analytics engineer variants",
+          "evidence": "Useful for modern data teams and product/GTM analytics",
+          "roleIds": [
+            "EXP001",
+            "EXP016"
+          ]
+        },
+        {
+          "name": "KPI Frameworks",
+          "category": "Strategy / Analytics",
+          "detail": "metrics design; metric governance; operating rhythm; executive dashboards",
+          "evidence": "Core differentiator across all variants",
+          "roleIds": [
+            "EXP001",
+            "EXP002",
+            "EXP006"
+          ]
+        },
+        {
+          "name": "Executive Reporting",
+          "category": "Communication",
+          "detail": "leadership readouts; executive dashboards; EXCO/board reporting; narratives",
+          "evidence": "Mimecast and Rapid7 reporting/storytelling",
+          "roleIds": [
+            "EXP002",
+            "EXP003"
+          ]
+        },
+        {
+          "name": "Excel / PowerPoint",
+          "category": "Tools / Communication",
+          "detail": "advanced analysis; executive presentations; decks; operating rhythms",
+          "evidence": "All roles",
+          "roleIds": [
+            "EXP001",
+            "EXP002",
+            "EXP006"
+          ]
+        }
+      ]
+    },
+    {
+      "cluster": "GTM / RevOps / Customer Analytics",
+      "skills": [
+        {
+          "name": "GTM Analytics",
+          "category": "Domain",
+          "detail": "funnel; attribution; conversion; channel; partner performance; RevOps alignment",
+          "evidence": "CyberArk, Mimecast, Rapid7",
+          "roleIds": [
+            "EXP002",
+            "EXP003",
+            "EXP005",
+            "EXP006"
+          ]
+        },
+        {
+          "name": "Market Intelligence",
+          "category": "Domain",
+          "detail": "TAM; ICP; segmentation; territory/quota; whitespace; competitive research",
+          "evidence": "Latch, Rapid7, CyberArk, Jellyfish variants",
+          "roleIds": [
+            "EXP003",
+            "EXP004",
+            "EXP005"
+          ]
+        },
+        {
+          "name": "Partner Program Analytics",
+          "category": "Domain",
+          "detail": "WW partner programs; MSP transition; partner KPIs; certifications; agreements",
+          "evidence": "Mimecast WW Partner Programs",
+          "roleIds": [
+            "EXP002"
+          ]
+        },
+        {
+          "name": "Customer Success Analytics",
+          "category": "Domain",
+          "detail": "retention drivers; CSAT/sentiment; lifecycle performance; ticket drivers",
+          "evidence": "Toast/HubSpot variants",
+          "roleIds": [
+            "EXP001",
+            "EXP014",
+            "EXP015"
+          ]
+        },
+        {
+          "name": "Salesforce",
+          "category": "Tools / GTM",
+          "detail": "CRM migration; partner program integration; GTM funnel reporting",
+          "evidence": "Mimecast, CyberArk, Rapid7",
+          "roleIds": [
+            "EXP002",
+            "EXP005",
+            "EXP006"
+          ]
+        },
+        {
+          "name": "Competitive Intelligence",
+          "category": "Strategy",
+          "detail": "ecosystem mapping; battlecards; messaging/positioning; pricing/packaging research",
+          "evidence": "Jellyfish/Product Manager AI; Mimecast early BI",
+          "roleIds": [
+            "EXP017",
+            "EXP006"
+          ]
+        }
+      ]
+    },
+    {
+      "cluster": "AI / LLM / Automation",
+      "skills": [
+        {
+          "name": "AI/LLM Workflows",
+          "category": "AI",
+          "detail": "prompt frameworks; agentic workflows; contextual memory; RAG concepts; evals; guardrails",
+          "evidence": "Consulting, AI analytics, Airbnb/Elite variants",
+          "roleIds": [
+            "EXP001"
+          ]
+        },
+        {
+          "name": "Prompt Engineering",
+          "category": "AI",
+          "detail": "prompt libraries; routing logic; versioned prompts; consistency checks",
+          "evidence": "Consulting and AI-focused variants",
+          "roleIds": [
+            "EXP001"
+          ]
+        },
+        {
+          "name": "NLP / Unstructured Data Analysis",
+          "category": "AI / Analytics",
+          "detail": "classification; summarization; topic/theme extraction; sentiment; document workflows",
+          "evidence": "Toast/Airbnb/Elite/Kigo variants",
+          "roleIds": [
+            "EXP001",
+            "EXP014"
+          ]
+        },
+        {
+          "name": "Automation",
+          "category": "Operations / AI",
+          "detail": "workflow digitization; reporting automation; no-code/low-code; LLM automation",
+          "evidence": "Consulting, Rapid7, Mimecast",
+          "roleIds": [
+            "EXP001",
+            "EXP003"
+          ]
+        },
+        {
+          "name": "No-code / Low-code",
+          "category": "Tools",
+          "detail": "Make; n8n; Zapier; Airtable; client portals; workflow apps",
+          "evidence": "ATS and AI consulting variants",
+          "roleIds": [
+            "EXP001"
+          ]
+        },
+        {
+          "name": "API Integration",
+          "category": "Technical",
+          "detail": "REST/SDK awareness; data integration; application workflows",
+          "evidence": "Kigo and ATS variants",
+          "roleIds": [
+            "EXP001"
+          ]
+        }
+      ]
+    },
+    {
+      "cluster": "Data Engineering & Analytics Engineering",
+      "skills": [
+        {
+          "name": "Snowflake",
+          "category": "Data Platform",
+          "detail": "data warehousing; data modeling; SQL warehouse; GTM/customer analytics",
+          "evidence": "Appears in nearly all modern variants",
+          "roleIds": [
+            "EXP001",
+            "EXP002",
+            "EXP005"
+          ]
+        },
+        {
+          "name": "dbt",
+          "category": "Analytics Engineering",
+          "detail": "modular transformations; semantic/metric layers; documentation; testing",
+          "evidence": "Strong in analytics-engineer/Suno and modern BI variants",
+          "roleIds": [
+            "EXP001",
+            "EXP016"
+          ]
+        },
+        {
+          "name": "Data Warehousing",
+          "category": "Data Platform",
+          "detail": "warehouses/marts; ETL/ELT; reporting layer; scalable foundations",
+          "evidence": "BI director/manager and analytics engineer variants",
+          "roleIds": [
+            "EXP001",
+            "EXP012"
+          ]
+        },
+        {
+          "name": "ETL/ELT",
+          "category": "Data Platform",
+          "detail": "pipelines; ingestion; source system integration; transformations",
+          "evidence": "DocuSign/Salesforce/DWH integration; client pipelines",
+          "roleIds": [
+            "EXP001",
+            "EXP002"
+          ]
+        },
+        {
+          "name": "Data Quality & Validation",
+          "category": "Governance",
+          "detail": "QA checks; reconciliation; exception monitoring; trust in reporting",
+          "evidence": "Strong across Mimecast MSP and consulting work",
+          "roleIds": [
+            "EXP001",
+            "EXP002"
+          ]
+        },
+        {
+          "name": "Analytics Engineering",
+          "category": "Technical / Data",
+          "detail": "instrumentation; data modeling; dbt-style transformations; reusable data products",
+          "evidence": "Suno/analytics engineer variant",
+          "roleIds": [
+            "EXP001",
+            "EXP016"
+          ]
+        },
+        {
+          "name": "Databricks",
+          "category": "Technical / Data",
+          "detail": "listed in AI/oldstyle variants as data platform exposure",
+          "evidence": "Use selectively when job explicitly asks",
+          "roleIds": [
+            "EXP001"
+          ]
+        },
+        {
+          "name": "Python",
+          "category": "Technical",
+          "detail": "automation; ingestion; malformed spreadsheet/PDF normalization; analysis; validation",
+          "evidence": "Strongest in AI/analytics consulting and Toast/Airbnb/Sanofi variants",
+          "roleIds": [
+            "EXP001",
+            "EXP004"
+          ]
+        }
+      ]
+    },
+    {
+      "cluster": "Executive Communication & Leadership",
+      "skills": [
+        {
+          "name": "Stakeholder Management",
+          "category": "Leadership",
+          "detail": "discovery; messy requirements; executive alignment; cross-functional partnership",
+          "evidence": "All senior roles",
+          "roleIds": [
+            "EXP001",
+            "EXP002",
+            "EXP003"
+          ]
+        },
+        {
+          "name": "Discovery & Facilitation",
+          "category": "Leadership",
+          "detail": "workshops; problem framing; success metrics; reporting gaps",
+          "evidence": "Client advisory variants",
+          "roleIds": [
+            "EXP001",
+            "EXP009"
+          ]
+        },
+        {
+          "name": "Project / Program Ownership",
+          "category": "Leadership",
+          "detail": "end-to-end lifecycle; dependency coordination; recurring processes",
+          "evidence": "Stripe/GTM Data Ops and consulting variants",
+          "roleIds": [
+            "EXP001",
+            "EXP007"
+          ]
+        }
+      ]
+    },
+    {
+      "cluster": "Product & Workflow Systems",
+      "skills": [
+        {
+          "name": "Product Strategy",
+          "category": "Product",
+          "detail": "roadmaps; product direction; product bets; requirements; acceptance criteria",
+          "evidence": "Kigo/Jellyfish/Sanofi variants and consulting",
+          "roleIds": [
+            "EXP001"
+          ]
+        },
+        {
+          "name": "Technical Product Management",
+          "category": "Product",
+          "detail": "API/system design mindset; user stories; QA/UAT; release plans; scope/prioritization",
+          "evidence": "Kigo/Sanofi variants",
+          "roleIds": [
+            "EXP001"
+          ]
+        },
+        {
+          "name": "Jira",
+          "category": "Tools / Delivery",
+          "detail": "agile delivery; documentation; product and analytics workflow tracking",
+          "evidence": "Listed across technical skills",
+          "roleIds": [
+            "EXP001"
+          ]
+        },
+        {
+          "name": "React",
+          "category": "Technical / Web",
+          "detail": "front-end/product app build keyword appearing in Kigo variant",
+          "evidence": "Use carefully unless supported by portfolio/project detail",
+          "roleIds": [
+            "EXP001"
+          ]
+        }
+      ]
+    },
+    {
+      "cluster": "Strategy & Pricing",
+      "skills": [
+        {
+          "name": "Pricing & Packaging Analysis",
+          "category": "Strategy / Product",
+          "detail": "SKU rationalization; profitability analysis; packaging transition readiness",
+          "evidence": "Mimecast pricing/packaging overhaul",
+          "roleIds": [
+            "EXP002"
+          ]
+        }
+      ]
+    }
+  ],
+  "caseStudies": [
+    {
+      "id": "STORY001",
+      "title": "Global MSP Transition Tracking System",
+      "company": "Mimecast",
+      "roleId": "EXP002",
+      "problem": "Global partner-program revamp required reliable tracking of agreements, certification data, and transition progress across thousands of managed services partners.",
+      "actions": "Integrated DocuSign, Salesforce, DWH, and certification data; defined KPI framework and accuracy criteria; built Tableau dashboards and automated cadence reports.",
+      "impact": "Leadership could monitor adoption, risk, and completion for a high-stakes global transition.",
+      "keywords": [
+        "partner programs",
+        "MSP transition",
+        "Salesforce",
+        "DocuSign",
+        "DWH",
+        "Tableau",
+        "KPI framework"
+      ]
+    },
+    {
+      "id": "STORY002",
+      "title": "ICP Redefinition and Retargeting Analytics",
+      "company": "Rapid7",
+      "roleId": "EXP003",
+      "problem": "Targeting needed a stronger evidence-backed Ideal Customer Profile across multiple segments.",
+      "actions": "Combined CRM/ERP data, third-party firmographics, and qualitative signals from marketing, sales, product, and CS; defined segmentation and outreach guidance.",
+      "impact": "Retargeting and outreach campaigns produced $5.5M+ net-new ARR improvement.",
+      "keywords": [
+        "ICP",
+        "segmentation",
+        "firmographics",
+        "GTM strategy",
+        "ARR",
+        "executive recommendation"
+      ]
+    },
+    {
+      "id": "STORY003",
+      "title": "Manual Workflow Automation and Pipeline Refactor",
+      "company": "Rapid7",
+      "roleId": "EXP003",
+      "problem": "Manual workflows and an unreliable pipeline/bookings dataset consumed time and eroded trust.",
+      "actions": "Automated manual processes, optimized data pipelines, refactored business logic, and improved usability/reliability for downstream reporting.",
+      "impact": "Reclaimed 2,000+ off-clock hours and increased trust in core data assets.",
+      "keywords": [
+        "automation",
+        "pipeline optimization",
+        "data quality",
+        "bookings",
+        "workflow efficiency"
+      ]
+    },
+    {
+      "id": "STORY004",
+      "title": "TAM / Whitespace / Territory Planning Dataset",
+      "company": "Latch",
+      "roleId": "EXP004",
+      "problem": "Leadership needed a granular, data-driven way to size addressable market, plan territories/quotas, and identify whitespace.",
+      "actions": "Built syndicated dataset from top-level rollups to account/building granularity; connected market signals with operational planning needs.",
+      "impact": "Enabled strategic insight into market penetration/whitespace and supported territory/quota planning and partnerships.",
+      "keywords": [
+        "TAM",
+        "whitespace",
+        "territory planning",
+        "quota planning",
+        "market intelligence"
+      ]
+    },
+    {
+      "id": "STORY005",
+      "title": "Secure Client Intake and Document Portal",
+      "company": "Independent AI & Analytics Consultant",
+      "roleId": "EXP001",
+      "problem": "Professional-services intake relied on manual scanning, printing, sorting, follow-ups, and opaque status tracking.",
+      "actions": "Built secure client intake/document portal with lifecycle management, encrypted transfer, structured tracking, and status visibility.",
+      "impact": "Eliminated scanning/printing/sorting overhead, saved hundreds of admin hours, improved data integrity and auditability.",
+      "keywords": [
+        "client portal",
+        "secure document transfer",
+        "workflow automation",
+        "lifecycle tracking",
+        "SaaS app"
+      ]
+    },
+    {
+      "id": "STORY006",
+      "title": "Field Inspection Application and Customer Portal",
+      "company": "Independent AI & Analytics Consultant",
+      "roleId": "EXP001",
+      "problem": "Field technicians relied on paper-based inspection workflows, creating data quality and throughput constraints.",
+      "actions": "Mapped field workflows, designed mobile/low-code application, digitized data capture, and surfaced telemetry for tolerance regression, technician efficiency, and route optimization.",
+      "impact": "Reduced paperwork to near zero, improved data accuracy, and increased jobs completed per technician per day.",
+      "keywords": [
+        "field app",
+        "technician workflow",
+        "mobile app",
+        "telemetry",
+        "route optimization",
+        "customer portal"
+      ]
+    },
+    {
+      "id": "STORY007",
+      "title": "AI-Orchestrated Insight Workflows",
+      "company": "Independent AI & Analytics Consultant",
+      "roleId": "EXP001",
+      "problem": "Recurring research, summarization, extraction, and reporting workflows required speed without losing quality.",
+      "actions": "Built LLM workflows using prompt libraries, routing logic, contextual memory/session layering, eval checks, guardrails, and human review.",
+      "impact": "Improved consistency, reduced manual effort, sped up analysis/documentation, and created repeatable automation patterns.",
+      "keywords": [
+        "LLM",
+        "prompt engineering",
+        "agentic workflows",
+        "evals",
+        "guardrails",
+        "contextual memory",
+        "RAG concepts"
+      ]
+    },
+    {
+      "id": "STORY008",
+      "title": "Pricing & Packaging Profitability Analysis",
+      "company": "Mimecast",
+      "roleId": "EXP002",
+      "problem": "Pricing/packaging overhaul condensed hundreds of legacy SKUs into bundles while launching a new cloud-integrated product platform.",
+      "actions": "Ran profitability analysis and partnered with operations/systems teams to ensure transition readiness, telemetry, and reporting.",
+      "impact": "Supported strategic pricing/packaging decision-making and future-proofed reporting for product transition.",
+      "keywords": [
+        "pricing",
+        "packaging",
+        "profitability",
+        "SKU rationalization",
+        "product analytics",
+        "telemetry"
+      ]
+    },
+    {
+      "id": "STORY009",
+      "title": "Supply Chain Visibility and Planning Analytics",
+      "company": "Latch",
+      "roleId": "EXP004",
+      "problem": "Procurement, manufacturing, and logistics signals were fragmented, limiting planning visibility and causing manual coordination overhead.",
+      "actions": "Built automated reporting dataset and KPI framework, analyzed bottlenecks/cost drivers, and recommended process improvements.",
+      "impact": "Improved planning visibility and reduced manual coordination by ~30-50%",
+      "keywords": [
+        "supply chain analytics",
+        "procurement",
+        "logistics",
+        "KPI framework",
+        "operational efficiency"
+      ]
+    },
+    {
+      "id": "STORY010",
+      "title": "Lead-to-Revenue Funnel and Attribution Foundation",
+      "company": "CyberArk",
+      "roleId": "EXP005",
+      "problem": "Campaign success and attribution needed a reliable lead-to-revenue data foundation.",
+      "actions": "Built source methodology and collaborated across leadership, marketing, operations, data engineering, and sales.",
+      "impact": "Improved GTM strategy and performance reporting for campaign attribution and funnel analysis.",
+      "keywords": [
+        "funnel",
+        "attribution",
+        "campaign analytics",
+        "RevOps",
+        "GTM data",
+        "data engineering"
+      ]
+    }
+  ],
+  "roleFit": [
+    {
+      "id": "POS001",
+      "label": "Default / Broad",
+      "headline": "Senior Analytics & AI Strategy Leader",
+      "targetRoles": [
+        "Senior Analytics Manager",
+        "BI Manager",
+        "Analytics Consultant",
+        "Data Strategy",
+        "AI Analytics Lead"
+      ],
+      "summary": "Analytics and AI strategy leader with 8+ years building KPI systems, scalable data products, GTM/customer intelligence, and executive reporting in high-growth environments. Turns ambiguous business problems into reliable data foundations, dashboards, and AI-enabled workflows that improve decision speed and operational efficiency.",
+      "keywords": [
+        "analytics leadership",
+        "KPI systems",
+        "SQL",
+        "Tableau",
+        "Snowflake",
+        "AI automation",
+        "executive reporting",
+        "GTM analytics"
+      ],
+      "proofIds": [
+        "ACH008",
+        "ACH009",
+        "ACH010",
+        "ACH014",
+        "ACH005",
+        "ACH006"
+      ],
+      "proofs": [
+        {
+          "id": "ACH008",
+          "text": "Built secure client intake/document portal digitizing collection, review, lifecycle tracking, and status visibility; eliminated scanning/printing/sorting overhead and saved hundreds of administrative hours.",
+          "metric": "hundreds of hours saved",
+          "company": "Independent AI & Analytics Consultant"
+        },
+        {
+          "id": "ACH009",
+          "text": "Designed technician-first field inspection application and customer portal that reduces inspection paperwork to near zero, improves data accuracy, and increases jobs completed per technician per day.",
+          "metric": "paperwork near zero; higher jobs/tech/day",
+          "company": "Independent AI & Analytics Consultant"
+        },
+        {
+          "id": "ACH010",
+          "text": "Implemented advanced LLM workflows with prompt versioning, contextual memory/session layering, guardrails, evaluation checks, structured extraction, summarization, and human review.",
+          "metric": "repeatable AI workflow patterns",
+          "company": "Independent AI & Analytics Consultant"
+        },
+        {
+          "id": "ACH014",
+          "text": "Created dashboards and recurring leadership reports for pipeline, utilization, SLA performance, revenue, throughput, quality, and bottleneck monitoring, with standardized definitions and quality checks.",
+          "metric": "repeatable operating-rhythm assets",
+          "company": "Independent AI & Analytics Consultant"
+        },
+        {
+          "id": "ACH005",
+          "text": "Built KPI framework and automated Tableau reporting for annual partner-program initiatives, consumed daily/weekly from executive board/EXCO to individual contributors.",
+          "metric": "executive-to-IC reporting cadence",
+          "company": "Mimecast"
+        },
+        {
+          "id": "ACH006",
+          "text": "Created end-to-end tracking for a global MSP transition program, integrating DocuSign, Salesforce, DWH, and certification data into pipelines/dashboards with accuracy criteria and automated cadence reports.",
+          "metric": "thousands of managed services partners globally",
+          "company": "Mimecast"
+        }
+      ],
+      "caseStudyIds": [
+        "STORY001",
+        "STORY003"
+      ]
+    },
+    {
+      "id": "POS002",
+      "label": "BI Manager / Director",
+      "headline": "Manager / Director, Business Intelligence & Analytics",
+      "targetRoles": [
+        "BI Manager",
+        "Director BI & Analytics",
+        "Analytics Consulting Manager",
+        "Client Advisory BI"
+      ],
+      "summary": "Client-facing BI and analytics leader experienced owning discovery, roadmap, data foundation, dashboard delivery, governance, QA, rollout, and adoption for executive and frontline stakeholders.",
+      "keywords": [
+        "BI strategy",
+        "dashboards",
+        "KPI frameworks",
+        "data governance",
+        "ETL",
+        "stakeholder management",
+        "SQL",
+        "Power BI",
+        "Tableau"
+      ],
+      "proofIds": [
+        "ACH008",
+        "ACH009",
+        "ACH014",
+        "ACH005",
+        "ACH006",
+        "ACH007"
+      ],
+      "proofs": [
+        {
+          "id": "ACH008",
+          "text": "Built secure client intake/document portal digitizing collection, review, lifecycle tracking, and status visibility; eliminated scanning/printing/sorting overhead and saved hundreds of administrative hours.",
+          "metric": "hundreds of hours saved",
+          "company": "Independent AI & Analytics Consultant"
+        },
+        {
+          "id": "ACH009",
+          "text": "Designed technician-first field inspection application and customer portal that reduces inspection paperwork to near zero, improves data accuracy, and increases jobs completed per technician per day.",
+          "metric": "paperwork near zero; higher jobs/tech/day",
+          "company": "Independent AI & Analytics Consultant"
+        },
+        {
+          "id": "ACH014",
+          "text": "Created dashboards and recurring leadership reports for pipeline, utilization, SLA performance, revenue, throughput, quality, and bottleneck monitoring, with standardized definitions and quality checks.",
+          "metric": "repeatable operating-rhythm assets",
+          "company": "Independent AI & Analytics Consultant"
+        },
+        {
+          "id": "ACH005",
+          "text": "Built KPI framework and automated Tableau reporting for annual partner-program initiatives, consumed daily/weekly from executive board/EXCO to individual contributors.",
+          "metric": "executive-to-IC reporting cadence",
+          "company": "Mimecast"
+        },
+        {
+          "id": "ACH006",
+          "text": "Created end-to-end tracking for a global MSP transition program, integrating DocuSign, Salesforce, DWH, and certification data into pipelines/dashboards with accuracy criteria and automated cadence reports.",
+          "metric": "thousands of managed services partners globally",
+          "company": "Mimecast"
+        },
+        {
+          "id": "ACH007",
+          "text": "Led profitability analysis for proposed pricing/packaging overhaul, including consolidation of hundreds of legacy SKUs into bundle offerings alongside a cloud-integrated product platform launch.",
+          "metric": "hundreds of SKUs analyzed/consolidated",
+          "company": "Mimecast"
+        }
+      ],
+      "caseStudyIds": [
+        "STORY001",
+        "STORY009"
+      ]
+    },
+    {
+      "id": "POS003",
+      "label": "Product + AI",
+      "headline": "Technical Product & AI Analytics Leader",
+      "targetRoles": [
+        "AI Product Manager",
+        "Technical Product Manager",
+        "Product Analytics Lead",
+        "AI Workflow Product Lead"
+      ],
+      "summary": "Technical product and analytics leader who translates ambiguous requirements into roadmap, user stories, system design, AI workflows, telemetry, and adoption plans. Hands-on with LLMs, prompt frameworks, validation, APIs, data foundations, and productized workflow automation.",
+      "keywords": [
+        "technical product management",
+        "AI workflows",
+        "APIs",
+        "prompt engineering",
+        "LLMs",
+        "roadmap",
+        "acceptance criteria",
+        "QA/UAT"
+      ],
+      "proofIds": [
+        "ACH008",
+        "ACH009",
+        "ACH010",
+        "ACH005",
+        "ACH007",
+        "ACH001"
+      ],
+      "proofs": [
+        {
+          "id": "ACH008",
+          "text": "Built secure client intake/document portal digitizing collection, review, lifecycle tracking, and status visibility; eliminated scanning/printing/sorting overhead and saved hundreds of administrative hours.",
+          "metric": "hundreds of hours saved",
+          "company": "Independent AI & Analytics Consultant"
+        },
+        {
+          "id": "ACH009",
+          "text": "Designed technician-first field inspection application and customer portal that reduces inspection paperwork to near zero, improves data accuracy, and increases jobs completed per technician per day.",
+          "metric": "paperwork near zero; higher jobs/tech/day",
+          "company": "Independent AI & Analytics Consultant"
+        },
+        {
+          "id": "ACH010",
+          "text": "Implemented advanced LLM workflows with prompt versioning, contextual memory/session layering, guardrails, evaluation checks, structured extraction, summarization, and human review.",
+          "metric": "repeatable AI workflow patterns",
+          "company": "Independent AI & Analytics Consultant"
+        },
+        {
+          "id": "ACH005",
+          "text": "Built KPI framework and automated Tableau reporting for annual partner-program initiatives, consumed daily/weekly from executive board/EXCO to individual contributors.",
+          "metric": "executive-to-IC reporting cadence",
+          "company": "Mimecast"
+        },
+        {
+          "id": "ACH007",
+          "text": "Led profitability analysis for proposed pricing/packaging overhaul, including consolidation of hundreds of legacy SKUs into bundle offerings alongside a cloud-integrated product platform launch.",
+          "metric": "hundreds of SKUs analyzed/consolidated",
+          "company": "Mimecast"
+        },
+        {
+          "id": "ACH001",
+          "text": "Redefined the Ideal Customer Profile using CRM, ERP, third-party firmographic data, and qualitative inputs from marketing, sales, product, and customer success; downstream targeting/outreach drove $5.5M+ net-new ARR improvement.",
+          "metric": "$5.5M+ net-new ARR",
+          "company": "Rapid7"
+        }
+      ],
+      "caseStudyIds": [
+        "STORY007"
+      ]
+    },
+    {
+      "id": "POS004",
+      "label": "GTM / RevOps / Data Ops",
+      "headline": "GTM Data Operations & Revenue Analytics Leader",
+      "targetRoles": [
+        "GTM Data Operations Lead",
+        "RevOps Analytics",
+        "Sales Planning",
+        "Revenue Analytics Manager"
+      ],
+      "summary": "GTM analytics and operations leader who builds account intelligence, segmentation, ICP, TAM, funnel/attribution, list-building processes, validation logic, and leadership-ready reporting for Sales, Marketing, Partner, and RevOps teams.",
+      "keywords": [
+        "GTM analytics",
+        "ICP",
+        "account intelligence",
+        "list building",
+        "sales planning",
+        "attribution",
+        "RevOps",
+        "segmentation"
+      ],
+      "proofIds": [
+        "ACH005",
+        "ACH001",
+        "ACH003",
+        "ACH004",
+        "ACH013",
+        "ACH012"
+      ],
+      "proofs": [
+        {
+          "id": "ACH005",
+          "text": "Built KPI framework and automated Tableau reporting for annual partner-program initiatives, consumed daily/weekly from executive board/EXCO to individual contributors.",
+          "metric": "executive-to-IC reporting cadence",
+          "company": "Mimecast"
+        },
+        {
+          "id": "ACH001",
+          "text": "Redefined the Ideal Customer Profile using CRM, ERP, third-party firmographic data, and qualitative inputs from marketing, sales, product, and customer success; downstream targeting/outreach drove $5.5M+ net-new ARR improvement.",
+          "metric": "$5.5M+ net-new ARR",
+          "company": "Rapid7"
+        },
+        {
+          "id": "ACH003",
+          "text": "Built TAM and market intelligence datasets from executive rollups down to account/building-level detail, enabling territory/quota planning, whitespace analysis, and strategic partnership planning.",
+          "metric": "addressable-market model across account/building granularity",
+          "company": "Latch"
+        },
+        {
+          "id": "ACH004",
+          "text": "Improved conversion rates 15%+ by defining ideal prospect qualifications and delivering time-sensitive outreach guidance based on internal/external data and anecdotal evidence.",
+          "metric": "15%+ conversion improvement",
+          "company": "Latch"
+        },
+        {
+          "id": "ACH013",
+          "text": "Built lead-to-revenue funnel foundation for attribution and campaign performance, bridging marketing, operations, data engineering, and sales teams.",
+          "metric": "new funnel/attribution foundation",
+          "company": "CyberArk"
+        },
+        {
+          "id": "ACH012",
+          "text": "Built data products for competitive intelligence, TAM, data-driven prospecting, lead generation/conversion, territory planning, forecasting, and GTM funnel reporting; outputs generated millions in pipeline/won business and were referenced in earnings calls.",
+          "metric": "millions in pipeline/won business; earnings-call references",
+          "company": "Mimecast"
+        }
+      ],
+      "caseStudyIds": [
+        "STORY002",
+        "STORY010"
+      ]
+    },
+    {
+      "id": "POS005",
+      "label": "Analytics Engineering",
+      "headline": "Analytics Engineer / Full-Stack Data Builder",
+      "targetRoles": [
+        "Analytics Engineer",
+        "Data Analyst",
+        "BI Engineer",
+        "Product/GTM Analytics Engineer"
+      ],
+      "summary": "Analytics engineer with strong SQL/dbt-style modeling, metric definitions, testing/validation, documentation, instrumentation, and dashboard delivery, bridging business stakeholders and data engineering to ship self-service data products.",
+      "keywords": [
+        "SQL",
+        "dbt",
+        "Snowflake",
+        "data modeling",
+        "instrumentation",
+        "data quality",
+        "dashboards",
+        "GitHub",
+        "Looker",
+        "Tableau"
+      ],
+      "proofIds": [
+        "ACH008",
+        "ACH014",
+        "ACH006",
+        "ACH002",
+        "ACH012",
+        "ACH015"
+      ],
+      "proofs": [
+        {
+          "id": "ACH008",
+          "text": "Built secure client intake/document portal digitizing collection, review, lifecycle tracking, and status visibility; eliminated scanning/printing/sorting overhead and saved hundreds of administrative hours.",
+          "metric": "hundreds of hours saved",
+          "company": "Independent AI & Analytics Consultant"
+        },
+        {
+          "id": "ACH014",
+          "text": "Created dashboards and recurring leadership reports for pipeline, utilization, SLA performance, revenue, throughput, quality, and bottleneck monitoring, with standardized definitions and quality checks.",
+          "metric": "repeatable operating-rhythm assets",
+          "company": "Independent AI & Analytics Consultant"
+        },
+        {
+          "id": "ACH006",
+          "text": "Created end-to-end tracking for a global MSP transition program, integrating DocuSign, Salesforce, DWH, and certification data into pipelines/dashboards with accuracy criteria and automated cadence reports.",
+          "metric": "thousands of managed services partners globally",
+          "company": "Mimecast"
+        },
+        {
+          "id": "ACH002",
+          "text": "Identified and automated manual workflows and optimized data pipelines, reclaiming 2,000+ off-clock work hours and improving trust in pipeline/bookings reporting.",
+          "metric": "2,000+ hours reclaimed",
+          "company": "Rapid7"
+        },
+        {
+          "id": "ACH012",
+          "text": "Built data products for competitive intelligence, TAM, data-driven prospecting, lead generation/conversion, territory planning, forecasting, and GTM funnel reporting; outputs generated millions in pipeline/won business and were referenced in earnings calls.",
+          "metric": "millions in pipeline/won business; earnings-call references",
+          "company": "Mimecast"
+        },
+        {
+          "id": "ACH015",
+          "text": "Built and iterated ecommerce platform, marketing analytics instrumentation, operational integrations, branding, and content for D2C/B2B dog chew toy startup.",
+          "metric": "thousands of interactions and purchases",
+          "company": "CocoChew"
+        }
+      ],
+      "caseStudyIds": [
+        "STORY001",
+        "STORY003"
+      ]
+    },
+    {
+      "id": "POS006",
+      "label": "Customer Success Analytics",
+      "headline": "Customer Success & Advanced Customer Analytics Leader",
+      "targetRoles": [
+        "Principal CS Analyst",
+        "Customer Strategy & Ops",
+        "CS Analytics Manager",
+        "Customer Insights Lead"
+      ],
+      "summary": "Customer/GTM analytics leader who turns lifecycle, ticket, CSAT, sentiment, and unstructured feedback into structured signals, dashboards, playbooks, and executive recommendations that improve retention, expansion, efficiency, and customer experience.",
+      "keywords": [
+        "CS analytics",
+        "retention drivers",
+        "unstructured feedback",
+        "sentiment",
+        "topic extraction",
+        "Snowflake",
+        "Python",
+        "Tableau"
+      ],
+      "proofIds": [
+        "ACH008",
+        "ACH009",
+        "ACH001"
+      ],
+      "proofs": [
+        {
+          "id": "ACH008",
+          "text": "Built secure client intake/document portal digitizing collection, review, lifecycle tracking, and status visibility; eliminated scanning/printing/sorting overhead and saved hundreds of administrative hours.",
+          "metric": "hundreds of hours saved",
+          "company": "Independent AI & Analytics Consultant"
+        },
+        {
+          "id": "ACH009",
+          "text": "Designed technician-first field inspection application and customer portal that reduces inspection paperwork to near zero, improves data accuracy, and increases jobs completed per technician per day.",
+          "metric": "paperwork near zero; higher jobs/tech/day",
+          "company": "Independent AI & Analytics Consultant"
+        },
+        {
+          "id": "ACH001",
+          "text": "Redefined the Ideal Customer Profile using CRM, ERP, third-party firmographic data, and qualitative inputs from marketing, sales, product, and customer success; downstream targeting/outreach drove $5.5M+ net-new ARR improvement.",
+          "metric": "$5.5M+ net-new ARR",
+          "company": "Rapid7"
+        }
+      ],
+      "caseStudyIds": [
+        "STORY001"
+      ]
+    },
+    {
+      "id": "POS007",
+      "label": "Commercial Insights",
+      "headline": "Senior Analytics & Insights Partner",
+      "targetRoles": [
+        "Commercial Insights",
+        "Retail/eCommerce Analytics",
+        "Growth Analytics",
+        "Strategy Analytics"
+      ],
+      "summary": "Analytics and insights partner who builds performance narratives, KPI systems, forecasting/ROI inputs, segmentation, and executive-ready recommendations across products, channels, customers, shoppers, and commercial goals.",
+      "keywords": [
+        "commercial performance",
+        "executive storytelling",
+        "retail analytics",
+        "ecommerce",
+        "KPI design",
+        "forecasting",
+        "ROI"
+      ],
+      "proofIds": [
+        "ACH014",
+        "ACH005",
+        "ACH006",
+        "ACH001",
+        "ACH003",
+        "ACH012"
+      ],
+      "proofs": [
+        {
+          "id": "ACH014",
+          "text": "Created dashboards and recurring leadership reports for pipeline, utilization, SLA performance, revenue, throughput, quality, and bottleneck monitoring, with standardized definitions and quality checks.",
+          "metric": "repeatable operating-rhythm assets",
+          "company": "Independent AI & Analytics Consultant"
+        },
+        {
+          "id": "ACH005",
+          "text": "Built KPI framework and automated Tableau reporting for annual partner-program initiatives, consumed daily/weekly from executive board/EXCO to individual contributors.",
+          "metric": "executive-to-IC reporting cadence",
+          "company": "Mimecast"
+        },
+        {
+          "id": "ACH006",
+          "text": "Created end-to-end tracking for a global MSP transition program, integrating DocuSign, Salesforce, DWH, and certification data into pipelines/dashboards with accuracy criteria and automated cadence reports.",
+          "metric": "thousands of managed services partners globally",
+          "company": "Mimecast"
+        },
+        {
+          "id": "ACH001",
+          "text": "Redefined the Ideal Customer Profile using CRM, ERP, third-party firmographic data, and qualitative inputs from marketing, sales, product, and customer success; downstream targeting/outreach drove $5.5M+ net-new ARR improvement.",
+          "metric": "$5.5M+ net-new ARR",
+          "company": "Rapid7"
+        },
+        {
+          "id": "ACH003",
+          "text": "Built TAM and market intelligence datasets from executive rollups down to account/building-level detail, enabling territory/quota planning, whitespace analysis, and strategic partnership planning.",
+          "metric": "addressable-market model across account/building granularity",
+          "company": "Latch"
+        },
+        {
+          "id": "ACH012",
+          "text": "Built data products for competitive intelligence, TAM, data-driven prospecting, lead generation/conversion, territory planning, forecasting, and GTM funnel reporting; outputs generated millions in pipeline/won business and were referenced in earnings calls.",
+          "metric": "millions in pipeline/won business; earnings-call references",
+          "company": "Mimecast"
+        }
+      ],
+      "caseStudyIds": []
+    },
+    {
+      "id": "POS008",
+      "label": "Competitive / Product Strategy",
+      "headline": "Product Strategy & Competitive Intelligence Leader",
+      "targetRoles": [
+        "Product Manager AI",
+        "Market Intelligence",
+        "Competitive Intelligence",
+        "Ecosystem Strategy"
+      ],
+      "summary": "Product and analytics leader skilled in ecosystem mapping, competitive intelligence, pricing/packaging analysis, market signals, executive briefs, decision memos, and AI-enabled research workflows that influence product direction and GTM strategy.",
+      "keywords": [
+        "competitive intelligence",
+        "product strategy",
+        "ecosystem mapping",
+        "battlecards",
+        "market intelligence",
+        "pricing",
+        "executive briefs"
+      ],
+      "proofIds": [
+        "ACH007",
+        "ACH001",
+        "ACH003",
+        "ACH013",
+        "ACH012",
+        "ACH015"
+      ],
+      "proofs": [
+        {
+          "id": "ACH007",
+          "text": "Led profitability analysis for proposed pricing/packaging overhaul, including consolidation of hundreds of legacy SKUs into bundle offerings alongside a cloud-integrated product platform launch.",
+          "metric": "hundreds of SKUs analyzed/consolidated",
+          "company": "Mimecast"
+        },
+        {
+          "id": "ACH001",
+          "text": "Redefined the Ideal Customer Profile using CRM, ERP, third-party firmographic data, and qualitative inputs from marketing, sales, product, and customer success; downstream targeting/outreach drove $5.5M+ net-new ARR improvement.",
+          "metric": "$5.5M+ net-new ARR",
+          "company": "Rapid7"
+        },
+        {
+          "id": "ACH003",
+          "text": "Built TAM and market intelligence datasets from executive rollups down to account/building-level detail, enabling territory/quota planning, whitespace analysis, and strategic partnership planning.",
+          "metric": "addressable-market model across account/building granularity",
+          "company": "Latch"
+        },
+        {
+          "id": "ACH013",
+          "text": "Built lead-to-revenue funnel foundation for attribution and campaign performance, bridging marketing, operations, data engineering, and sales teams.",
+          "metric": "new funnel/attribution foundation",
+          "company": "CyberArk"
+        },
+        {
+          "id": "ACH012",
+          "text": "Built data products for competitive intelligence, TAM, data-driven prospecting, lead generation/conversion, territory planning, forecasting, and GTM funnel reporting; outputs generated millions in pipeline/won business and were referenced in earnings calls.",
+          "metric": "millions in pipeline/won business; earnings-call references",
+          "company": "Mimecast"
+        },
+        {
+          "id": "ACH015",
+          "text": "Built and iterated ecommerce platform, marketing analytics instrumentation, operational integrations, branding, and content for D2C/B2B dog chew toy startup.",
+          "metric": "thousands of interactions and purchases",
+          "company": "CocoChew"
+        }
+      ],
+      "caseStudyIds": [
+        "STORY004",
+        "STORY008"
+      ]
+    },
+    {
+      "id": "POS009",
+      "label": "Process Optimization / Ops Excellence",
+      "headline": "Business Process & Operational Excellence Analytics Leader",
+      "targetRoles": [
+        "Business Process Analyst",
+        "Operational Excellence",
+        "Process Analytics",
+        "GR&D Ops Excellence"
+      ],
+      "summary": "Business process and analytics leader who maps current-state workflows, identifies bottlenecks, defines future-state operating models, creates SOPs/governance, and builds metrics/dashboards to sustain process improvement.",
+      "keywords": [
+        "process optimization",
+        "operational excellence",
+        "SOPs",
+        "governance",
+        "bottleneck analysis",
+        "dashboards",
+        "change leadership"
+      ],
+      "proofIds": [
+        "ACH008",
+        "ACH009",
+        "ACH010",
+        "ACH014",
+        "ACH002",
+        "ACH011"
+      ],
+      "proofs": [
+        {
+          "id": "ACH008",
+          "text": "Built secure client intake/document portal digitizing collection, review, lifecycle tracking, and status visibility; eliminated scanning/printing/sorting overhead and saved hundreds of administrative hours.",
+          "metric": "hundreds of hours saved",
+          "company": "Independent AI & Analytics Consultant"
+        },
+        {
+          "id": "ACH009",
+          "text": "Designed technician-first field inspection application and customer portal that reduces inspection paperwork to near zero, improves data accuracy, and increases jobs completed per technician per day.",
+          "metric": "paperwork near zero; higher jobs/tech/day",
+          "company": "Independent AI & Analytics Consultant"
+        },
+        {
+          "id": "ACH010",
+          "text": "Implemented advanced LLM workflows with prompt versioning, contextual memory/session layering, guardrails, evaluation checks, structured extraction, summarization, and human review.",
+          "metric": "repeatable AI workflow patterns",
+          "company": "Independent AI & Analytics Consultant"
+        },
+        {
+          "id": "ACH014",
+          "text": "Created dashboards and recurring leadership reports for pipeline, utilization, SLA performance, revenue, throughput, quality, and bottleneck monitoring, with standardized definitions and quality checks.",
+          "metric": "repeatable operating-rhythm assets",
+          "company": "Independent AI & Analytics Consultant"
+        },
+        {
+          "id": "ACH002",
+          "text": "Identified and automated manual workflows and optimized data pipelines, reclaiming 2,000+ off-clock work hours and improving trust in pipeline/bookings reporting.",
+          "metric": "2,000+ hours reclaimed",
+          "company": "Rapid7"
+        },
+        {
+          "id": "ACH011",
+          "text": "Led supply-chain optimization analysis across procurement/fulfillment/manufacturing signals, improving planning visibility and reducing manual coordination by roughly 30-50%",
+          "metric": "30-50% coordination reduction",
+          "company": "Latch"
+        }
+      ],
+      "caseStudyIds": []
+    }
+  ],
+  "atsBank": [
+    {
+      "keyword_group": "Core Analytics",
+      "keywords": "analytics leadership; business intelligence; data strategy; KPI frameworks; metric governance; executive dashboards; self-service BI; data storytelling",
+      "usage": "Use in summary and skills for BI/analytics leadership roles."
+    },
+    {
+      "keyword_group": "Data Stack",
+      "keywords": "SQL; Snowflake; dbt; data warehousing; ETL; ELT; Tableau; Power BI; Looker; Tableau Prep; Alteryx; Salesforce; Jira; Excel; PowerPoint",
+      "usage": "Use exact tool names from job req only where truthful; prioritize SQL/Tableau/Snowflake/dbt."
+    },
+    {
+      "keyword_group": "AI / LLM",
+      "keywords": "LLM applications; prompt engineering; prompt frameworks; agentic workflows; RAG concepts; contextual memory; model evaluation; guardrails; structured extraction; summarization; NLP",
+      "usage": "Use for AI product, AI analyst, automation, data science-adjacent roles."
+    },
+    {
+      "keyword_group": "GTM / RevOps",
+      "keywords": "GTM analytics; ICP; TAM; segmentation; territory planning; quota planning; funnel analytics; attribution; conversion; account intelligence; list building; RevOps; partner analytics",
+      "usage": "Use for sales/marketing/revenue ops and partner-program roles."
+    },
+    {
+      "keyword_group": "Customer / CS",
+      "keywords": "customer success analytics; retention drivers; lifecycle performance; CSAT; sentiment; ticket drivers; unstructured feedback; playbooks; scorecards",
+      "usage": "Use for CS strategy, customer analytics, customer operations roles."
+    },
+    {
+      "keyword_group": "Product",
+      "keywords": "technical product management; roadmap; user stories; acceptance criteria; QA/UAT; product analytics; instrumentation; API design; system design; telemetry; adoption",
+      "usage": "Use for product manager, technical PM, product analytics roles."
+    },
+    {
+      "keyword_group": "Operations",
+      "keywords": "workflow automation; process optimization; operational excellence; bottleneck analysis; SOPs; governance; exception monitoring; scheduled summaries; cycle time; throughput; quality",
+      "usage": "Use for ops/process/BI manager roles."
+    },
+    {
+      "keyword_group": "Leadership",
+      "keywords": "stakeholder management; cross-functional partnership; discovery; executive communication; requirements gathering; program ownership; delivery ownership; change management; training; documentation",
+      "usage": "Use broadly; important for manager/director/client-facing roles."
+    },
+    {
+      "keyword_group": "Proof Points",
+      "keywords": "$5.5M+ ARR; 2,000+ hours reclaimed; 15%+ conversion improvement; 30-50% coordination reduction; hundreds of admin hours saved; thousands of managed services partners",
+      "usage": "Use in bullets and highlight panels; avoid inventing new metrics."
+    }
+  ]
+}

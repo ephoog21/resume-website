@@ -1,0 +1,249 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================
+   Design system root
+   ============================================================ */
+:root {
+  --ink: #0B0D10;
+  --ink-50: #13161B;
+  --ink-100: #181C22;
+  --ink-200: #1E232B;
+  --ink-300: #272D37;
+  --parchment: #EDE6D6;
+  --parchment-dim: #C8C2B4;
+  --parchment-mute: #8E897D;
+  --amber-glow: #E8B45C;
+  --amber-deep: #B07A2A;
+  --teal-accent: #6FB7B7;
+  --hairline: rgba(237, 230, 214, 0.08);
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: var(--ink);
+  color: var(--parchment);
+  font-feature-settings: "ss01", "cv11", "ss03";
+}
+
+/* ============================================================
+   Atmospheric background — subtle dot grid + soft amber wash.
+   The dots fade with a radial mask so they read as paper texture
+   rather than a chart, and the warm gradient lives behind the
+   hero only. No purple-gradient cliché.
+   ============================================================ */
+.bg-dotgrid {
+  background-color: var(--ink);
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(237, 230, 214, 0.07) 1px, transparent 0);
+  background-size: 28px 28px;
+  background-position: 0 0;
+}
+
+.bg-dotgrid-soft {
+  background-color: var(--ink);
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(237, 230, 214, 0.04) 1px, transparent 0);
+  background-size: 32px 32px;
+}
+
+.hero-glow {
+  background:
+    radial-gradient(ellipse 60% 50% at 80% 10%, rgba(232, 180, 92, 0.10), transparent 60%),
+    radial-gradient(ellipse 40% 40% at 10% 60%, rgba(111, 183, 183, 0.06), transparent 60%);
+}
+
+/* ============================================================
+   Typography utilities — editorial-grade headlines
+   ============================================================ */
+.display-xl {
+  font-family: var(--font-display), Georgia, serif;
+  font-weight: 300;
+  /* Tuned so the two-clause headline holds on 1 line per clause at 1280px+,
+     softly wraps once on tablet, and stays legible on phones without
+     dominating the viewport. */
+  font-size: clamp(2.5rem, 5.2vw, 4.75rem);
+  line-height: 0.98;
+  letter-spacing: -0.035em;
+  font-variation-settings: "opsz" 144, "SOFT" 30;
+}
+
+.display-lg {
+  font-family: var(--font-display), Georgia, serif;
+  font-weight: 350;
+  font-size: clamp(1.875rem, 3.6vw, 3rem);
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  font-variation-settings: "opsz" 96, "SOFT" 30;
+}
+
+.display-md {
+  font-family: var(--font-display), Georgia, serif;
+  font-weight: 400;
+  font-size: clamp(1.5rem, 2.6vw, 2.25rem);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+
+.eyebrow {
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--parchment-mute);
+}
+
+.serif-italic {
+  font-family: var(--font-display), Georgia, serif;
+  font-style: italic;
+  font-weight: 350;
+}
+
+/* ============================================================
+   UI primitives
+   ============================================================ */
+.hairline {
+  border-color: var(--hairline);
+}
+
+.card-glass {
+  background: linear-gradient(
+    180deg,
+    rgba(24, 28, 34, 0.72) 0%,
+    rgba(19, 22, 27, 0.55) 100%
+  );
+  border: 1px solid var(--hairline);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.card-glass-hover {
+  transition: border-color 0.3s ease, transform 0.3s ease, background 0.3s ease;
+}
+.card-glass-hover:hover {
+  border-color: rgba(232, 180, 92, 0.35);
+  transform: translateY(-2px);
+}
+
+/* Inset metric chip */
+.metric-chip {
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(232, 180, 92, 0.35);
+  color: var(--amber-glow);
+  background: rgba(232, 180, 92, 0.05);
+  display: inline-block;
+}
+
+.tag-chip {
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.04em;
+  padding: 3px 8px;
+  border-radius: 4px;
+  color: var(--parchment-dim);
+  background: rgba(237, 230, 214, 0.04);
+  border: 1px solid var(--hairline);
+  display: inline-block;
+}
+
+.tag-chip-active {
+  color: var(--ink);
+  background: var(--amber-glow);
+  border-color: var(--amber-glow);
+}
+
+/* CTA buttons */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.625rem;
+  padding: 0.875rem 1.5rem;
+  background: var(--parchment);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  border-radius: 999px;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+.btn-primary:hover {
+  background: var(--amber-glow);
+  transform: translateY(-1px);
+}
+
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.625rem;
+  padding: 0.875rem 1.5rem;
+  color: var(--parchment);
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  border-radius: 999px;
+  border: 1px solid var(--hairline);
+  transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease;
+}
+.btn-ghost:hover {
+  border-color: rgba(232, 180, 92, 0.45);
+  color: var(--amber-glow);
+  background: rgba(232, 180, 92, 0.04);
+}
+
+/* Hairline rules with index numbers (editorial touch) */
+.section-rule {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+.section-rule-line {
+  flex: 1;
+  height: 1px;
+  background: var(--hairline);
+}
+
+/* Bullet markers in display copy */
+.disp-marker::before {
+  content: "—";
+  color: var(--amber-glow);
+  margin-right: 0.5em;
+}
+
+/* ============================================================
+   Animations / keyframe support
+   ============================================================ */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Selection color */
+::selection {
+  background: var(--amber-glow);
+  color: var(--ink);
+}
+
+/* Scroll bar (subtle) */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--ink); }
+::-webkit-scrollbar-thumb { background: var(--ink-300); border-radius: 6px; }
+::-webkit-scrollbar-thumb:hover { background: var(--ink-400); }
