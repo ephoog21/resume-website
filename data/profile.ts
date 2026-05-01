@@ -73,7 +73,12 @@ export type Highlight = {
   metric: string;
   context: string;
   company: string;
+  roleTitle: string;
   skillTags: string[];
+  softSkills: string[];
+  problem: string;
+  approach: string;
+  outcome: string;
 };
 
 export type RoleFit = {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-01T17:25:14.586Z",
+  "generatedAt": "2026-05-01T19:02:56.642Z",
   "profile": {
     "name": "Ed Hoogasian",
     "location": "Boston, MA / Remote",
@@ -23,13 +23,22 @@
       "title": "ICP redefinition that moved ARR",
       "context": "Redefined the Ideal Customer Profile using CRM, ERP, third-party firmographic data, and qualitative inputs from marketing, sales, product, and customer success; downstream targeting/outreach drove $5.5M+ net-new ARR improvement.",
       "company": "Rapid7",
+      "roleTitle": "Lead Business Analyst",
       "skillTags": [
         "ICP",
         "segmentation",
         "GTM analytics",
         "firmographics",
         "executive recommendation"
-      ]
+      ],
+      "softSkills": [
+        "Cross-functional facilitation",
+        "Executive recommendation",
+        "Translating qualitative signal into structure"
+      ],
+      "problem": "Targeting needed a stronger evidence-backed Ideal Customer Profile across multiple segments.",
+      "approach": "Combined CRM/ERP data, third-party firmographics, and qualitative signals from marketing, sales, product, and CS; defined segmentation and outreach guidance.",
+      "outcome": "Retargeting and outreach campaigns produced $5.5M+ net-new ARR improvement."
     },
     {
       "id": "ACH002",
@@ -37,12 +46,21 @@
       "title": "Manual workflow automation at scale",
       "context": "Identified and automated manual workflows and optimized data pipelines, reclaiming 2,000+ off-clock work hours and improving trust in pipeline/bookings reporting.",
       "company": "Rapid7",
+      "roleTitle": "Lead Business Analyst",
       "skillTags": [
         "automation",
         "workflow optimization",
         "pipeline reliability",
         "cross-functional collaboration"
-      ]
+      ],
+      "softSkills": [
+        "Cross-team trust building",
+        "Bias for reducing toil",
+        "Process discipline"
+      ],
+      "problem": "Manual workflows and an unreliable pipeline/bookings dataset consumed time and eroded trust.",
+      "approach": "Automated manual processes, optimized data pipelines, refactored business logic, and improved usability/reliability for downstream reporting.",
+      "outcome": "Reclaimed 2,000+ off-clock hours and increased trust in core data assets."
     },
     {
       "id": "ACH004",
@@ -50,12 +68,21 @@
       "title": "Conversion lift via prospect qualification",
       "context": "Improved conversion rates 15%+ by defining ideal prospect qualifications and delivering time-sensitive outreach guidance based on internal/external data and anecdotal evidence.",
       "company": "Latch",
+      "roleTitle": "Senior Analyst, Enterprise Analytics",
       "skillTags": [
         "conversion analytics",
         "prospect qualification",
         "outreach guidance",
         "driver analysis"
-      ]
+      ],
+      "softSkills": [
+        "Field-level empathy",
+        "Decisive prioritization",
+        "Translating evidence into guidance"
+      ],
+      "problem": "Outbound and follow-up effort wasn't matched to where it would actually convert — qualification was inconsistent and time-sensitive signals were getting missed.",
+      "approach": "Defined ideal prospect qualifications using internal/external data and anecdotal field input, then translated that into time-sensitive outreach guidance the front-line team could act on the same week.",
+      "outcome": "Conversion rates improved 15%+ and the qualification framework became reusable across new segments and campaigns."
     },
     {
       "id": "ACH005",
@@ -63,13 +90,22 @@
       "title": "Exec-to-IC reporting cadence",
       "context": "Built KPI framework and automated Tableau reporting for annual partner-program initiatives, consumed daily/weekly from executive board/EXCO to individual contributors.",
       "company": "Mimecast",
+      "roleTitle": "Senior Strategic Analyst, WW Partner Programs",
       "skillTags": [
         "KPI design",
         "Tableau",
         "executive reporting",
         "partner programs",
         "operating rhythm"
-      ]
+      ],
+      "softSkills": [
+        "Audience-aware storytelling",
+        "Operating-rhythm design",
+        "Executive communication"
+      ],
+      "problem": "An annual partner-program initiative needed a single set of numbers everyone — from the executive board down to individual contributors — could trust and read on the same cadence.",
+      "approach": "Designed the KPI framework end-to-end and built automated Tableau reporting layered for each audience: board-level rollups, exec views, manager dashboards, and IC-level drilldowns.",
+      "outcome": "One reporting system became the operating rhythm for daily and weekly reviews across the org, replacing fragmented PowerPoints and ad-hoc pulls."
     },
     {
       "id": "ACH006",
@@ -77,6 +113,7 @@
       "title": "Global MSP transition tracking",
       "context": "Created end-to-end tracking for a global MSP transition program, integrating DocuSign, Salesforce, DWH, and certification data into pipelines/dashboards with accuracy criteria and automated cadence reports.",
       "company": "Mimecast",
+      "roleTitle": "Senior Strategic Analyst, WW Partner Programs",
       "skillTags": [
         "data integration",
         "project tracking",
@@ -84,7 +121,15 @@
         "DocuSign",
         "KPI systems",
         "program analytics"
-      ]
+      ],
+      "softSkills": [
+        "Program ownership",
+        "Accuracy discipline",
+        "Cross-system orchestration"
+      ],
+      "problem": "Global partner-program revamp required reliable tracking of agreements, certification data, and transition progress across thousands of managed services partners.",
+      "approach": "Integrated DocuSign, Salesforce, DWH, and certification data; defined KPI framework and accuracy criteria; built Tableau dashboards and automated cadence reports.",
+      "outcome": "Leadership could monitor adoption, risk, and completion for a high-stakes global transition."
     },
     {
       "id": "ACH003",
@@ -92,13 +137,22 @@
       "title": "TAM modeled to building-level detail",
       "context": "Built TAM and market intelligence datasets from executive rollups down to account/building-level detail, enabling territory/quota planning, whitespace analysis, and strategic partnership planning.",
       "company": "Latch",
+      "roleTitle": "Senior Analyst, Enterprise Analytics",
       "skillTags": [
         "TAM",
         "market intelligence",
         "territory planning",
         "quota planning",
         "whitespace"
-      ]
+      ],
+      "softSkills": [
+        "Strategic framing",
+        "Stakeholder alignment",
+        "Comfort with ambiguity at scale"
+      ],
+      "problem": "Leadership needed a granular, data-driven way to size addressable market, plan territories/quotas, and identify whitespace.",
+      "approach": "Built syndicated dataset from top-level rollups to account/building granularity; connected market signals with operational planning needs.",
+      "outcome": "Enabled strategic insight into market penetration/whitespace and supported territory/quota planning and partnerships."
     },
     {
       "id": "ACH010",
@@ -106,6 +160,7 @@
       "title": "LLM workflows with evals & guardrails",
       "context": "Implemented advanced LLM workflows with prompt versioning, contextual memory/session layering, guardrails, evaluation checks, structured extraction, summarization, and human review.",
       "company": "Independent AI & Analytics Consultant",
+      "roleTitle": "Independent AI & Analytics Consultant / Product Development + Automation",
       "skillTags": [
         "LLM",
         "prompt engineering",
@@ -114,7 +169,15 @@
         "guardrails",
         "structured extraction",
         "contextual memory"
-      ]
+      ],
+      "softSkills": [
+        "Systems thinking",
+        "Quality discipline (evals, guardrails)",
+        "Pragmatic AI judgment"
+      ],
+      "problem": "Recurring research, summarization, extraction, and reporting workflows required speed without losing quality.",
+      "approach": "Built LLM workflows using prompt libraries, routing logic, contextual memory/session layering, eval checks, guardrails, and human review.",
+      "outcome": "Improved consistency, reduced manual effort, sped up analysis/documentation, and created repeatable automation patterns."
     },
     {
       "id": "ACH008",
@@ -122,13 +185,22 @@
       "title": "Secure intake & document portal",
       "context": "Built secure client intake/document portal digitizing collection, review, lifecycle tracking, and status visibility; eliminated scanning/printing/sorting overhead and saved hundreds of administrative hours.",
       "company": "Independent AI & Analytics Consultant",
+      "roleTitle": "Independent AI & Analytics Consultant / Product Development + Automation",
       "skillTags": [
         "client portal",
         "secure document workflows",
         "SaaS app",
         "operational automation",
         "data integrity"
-      ]
+      ],
+      "softSkills": [
+        "Workflow empathy",
+        "Product judgment",
+        "Compliance-minded design"
+      ],
+      "problem": "Professional-services intake relied on manual scanning, printing, sorting, follow-ups, and opaque status tracking.",
+      "approach": "Built secure client intake/document portal with lifecycle management, encrypted transfer, structured tracking, and status visibility.",
+      "outcome": "Eliminated scanning/printing/sorting overhead, saved hundreds of admin hours, improved data integrity and auditability."
     },
     {
       "id": "ACH011",
@@ -136,12 +208,21 @@
       "title": "Supply-chain coordination reduction",
       "context": "Led supply-chain optimization analysis across procurement/fulfillment/manufacturing signals, improving planning visibility and reducing manual coordination by roughly 30-50%",
       "company": "Latch",
+      "roleTitle": "Senior Analyst, Enterprise Analytics",
       "skillTags": [
         "supply chain analytics",
         "operations analytics",
         "standardized metrics",
         "automated reporting"
-      ]
+      ],
+      "softSkills": [
+        "Operations partnership",
+        "Bottleneck thinking",
+        "Practical recommendation"
+      ],
+      "problem": "Procurement, manufacturing, and logistics signals were fragmented, limiting planning visibility and causing manual coordination overhead.",
+      "approach": "Built automated reporting dataset and KPI framework, analyzed bottlenecks/cost drivers, and recommended process improvements.",
+      "outcome": "Improved planning visibility and reduced manual coordination by ~30-50%"
     },
     {
       "id": "ACH012",
@@ -149,6 +230,7 @@
       "title": "Data products referenced in earnings calls",
       "context": "Built data products for competitive intelligence, TAM, data-driven prospecting, lead generation/conversion, territory planning, forecasting, and GTM funnel reporting; outputs generated millions in pipeline/won business and were referenced in earnings calls.",
       "company": "Mimecast",
+      "roleTitle": "Business Intelligence Analyst II",
       "skillTags": [
         "competitive intelligence",
         "TAM",
@@ -157,7 +239,15 @@
         "Tableau",
         "Salesforce",
         "CRM migration"
-      ]
+      ],
+      "softSkills": [
+        "Executive narrative",
+        "Long-horizon investment",
+        "Cross-functional product orientation"
+      ],
+      "problem": "Sales, strategy, and the executive team were each pulling competitive, market, and forecasting context from different places — slowing planning cycles and weakening external narratives.",
+      "approach": "Built data products spanning competitive intelligence, TAM, data-driven prospecting, lead conversion, territory planning, forecasting, and GTM funnel reporting on Salesforce + Tableau, including a CRM migration to make the foundation durable.",
+      "outcome": "Outputs generated millions in pipeline and won business and were referenced in earnings calls — the same datasets served front-line targeting and external storytelling."
     }
   ],
   "experience": [

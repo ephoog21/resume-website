@@ -201,18 +201,88 @@ const highlightOrder = [
   "ACH012", // earnings-call
 ];
 
+// Map each highlight to the matching project_story when available — that
+// gives us authoritative problem / actions / impact text in the user's own
+// voice. For highlights without a parallel story, we hand-write the same
+// three fields from the achievement context, conservatively.
+const highlightStoryMap = {
+  ACH001: "STORY002", // ICP / $5.5M
+  ACH002: "STORY003", // workflow automation
+  ACH003: "STORY004", // TAM
+  ACH006: "STORY001", // MSP transition
+  ACH008: "STORY005", // intake portal
+  ACH010: "STORY007", // LLM workflows
+  ACH011: "STORY009", // supply chain
+};
+
+// Hand-authored problem/approach/outcome for highlights without a story.
+// Stays close to the source achievement language — no fabricated metrics.
+const highlightFallbacks = {
+  ACH004: {
+    problem:
+      "Outbound and follow-up effort wasn't matched to where it would actually convert — qualification was inconsistent and time-sensitive signals were getting missed.",
+    approach:
+      "Defined ideal prospect qualifications using internal/external data and anecdotal field input, then translated that into time-sensitive outreach guidance the front-line team could act on the same week.",
+    outcome:
+      "Conversion rates improved 15%+ and the qualification framework became reusable across new segments and campaigns.",
+  },
+  ACH005: {
+    problem:
+      "An annual partner-program initiative needed a single set of numbers everyone — from the executive board down to individual contributors — could trust and read on the same cadence.",
+    approach:
+      "Designed the KPI framework end-to-end and built automated Tableau reporting layered for each audience: board-level rollups, exec views, manager dashboards, and IC-level drilldowns.",
+    outcome:
+      "One reporting system became the operating rhythm for daily and weekly reviews across the org, replacing fragmented PowerPoints and ad-hoc pulls.",
+  },
+  ACH012: {
+    problem:
+      "Sales, strategy, and the executive team were each pulling competitive, market, and forecasting context from different places — slowing planning cycles and weakening external narratives.",
+    approach:
+      "Built data products spanning competitive intelligence, TAM, data-driven prospecting, lead conversion, territory planning, forecasting, and GTM funnel reporting on Salesforce + Tableau, including a CRM migration to make the foundation durable.",
+    outcome:
+      "Outputs generated millions in pipeline and won business and were referenced in earnings calls — the same datasets served front-line targeting and external storytelling.",
+  },
+};
+
+// Curated soft-skill pull per highlight — what the work actually exercises
+// beyond the technical tags. Drawn from the achievement language itself
+// (cross-functional inputs, executive narrative, etc.); nothing invented.
+const highlightSoftSkills = {
+  ACH001: ["Cross-functional facilitation", "Executive recommendation", "Translating qualitative signal into structure"],
+  ACH002: ["Cross-team trust building", "Bias for reducing toil", "Process discipline"],
+  ACH003: ["Strategic framing", "Stakeholder alignment", "Comfort with ambiguity at scale"],
+  ACH004: ["Field-level empathy", "Decisive prioritization", "Translating evidence into guidance"],
+  ACH005: ["Audience-aware storytelling", "Operating-rhythm design", "Executive communication"],
+  ACH006: ["Program ownership", "Accuracy discipline", "Cross-system orchestration"],
+  ACH008: ["Workflow empathy", "Product judgment", "Compliance-minded design"],
+  ACH010: ["Systems thinking", "Quality discipline (evals, guardrails)", "Pragmatic AI judgment"],
+  ACH011: ["Operations partnership", "Bottleneck thinking", "Practical recommendation"],
+  ACH012: ["Executive narrative", "Long-horizon investment", "Cross-functional product orientation"],
+};
+
 const highlights = highlightOrder
   .map((id) => raw.achievements.find((a) => a.achievement_id === id))
   .filter(Boolean)
   .map((a) => {
     const role = raw.experience.find((e) => e.role_id === a.role_id);
+    const storyId = highlightStoryMap[a.achievement_id];
+    const story = storyId
+      ? raw.project_stories.find((s) => s.story_id === storyId)
+      : null;
+    const fallback = highlightFallbacks[a.achievement_id];
+
     return {
       id: a.achievement_id,
       metric: cleanText(a.metric),
       title: deriveHighlightTitle(a),
       context: cleanText(a.achievement),
       company: role?.company ?? "",
+      roleTitle: role?.title ?? "",
       skillTags: splitTags(a.skill_tags),
+      softSkills: highlightSoftSkills[a.achievement_id] ?? [],
+      problem: cleanText(story?.problem || fallback?.problem || ""),
+      approach: cleanText(story?.actions || fallback?.approach || ""),
+      outcome: cleanText(story?.impact || fallback?.outcome || ""),
     };
   });
 

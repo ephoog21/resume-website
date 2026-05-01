@@ -12,7 +12,11 @@ import type { Highlight } from "@/data/profile";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { SectionBridge } from "@/components/ui/SectionBridge";
 
-const ROTATE_MS = 5500;
+// Auto-advance is generous — each card has a Problem / Approach / Outcome
+// to read, and the auto-rotation should never feel like it's racing the
+// reader. Hover/focus pauses, so this is really only the speed for a
+// passive scroll-by glance.
+const ROTATE_MS = 9000;
 
 export function RotatingHighlights({ highlights }: { highlights: Highlight[] }) {
   const [active, setActive] = useState(0);
@@ -53,7 +57,7 @@ export function RotatingHighlights({ highlights }: { highlights: Highlight[] }) 
           onBlur={() => setPaused(false)}
         >
           {/* Card stage */}
-          <div className="lg:col-span-8 relative min-h-[360px]">
+          <div className="lg:col-span-8 relative">
             <AnimatePresence mode="wait">
               <motion.article
                 key={current.id}
@@ -61,32 +65,82 @@ export function RotatingHighlights({ highlights }: { highlights: Highlight[] }) 
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -10 }}
                 transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
-                className="card-glass rounded-2xl p-8 lg:p-10 h-full flex flex-col"
+                className="card-glass rounded-2xl p-8 lg:p-10 flex flex-col"
               >
-                <div className="flex items-center justify-between mb-6">
-                  <span className="metric-chip">{current.metric}</span>
-                  <span className="font-mono text-[0.65rem] text-parchment-mute tracking-widest2">
+                {/* Header: metric + role context + counter */}
+                <div className="flex items-start justify-between gap-6 mb-6">
+                  <div className="flex flex-col gap-3">
+                    <span className="metric-chip self-start">{current.metric}</span>
+                    {(current.roleTitle || current.company) && (
+                      <p className="font-mono text-[0.7rem] text-parchment-mute tracking-widest2 uppercase">
+                        {[current.roleTitle, current.company]
+                          .filter(Boolean)
+                          .join(" · ")}
+                      </p>
+                    )}
+                  </div>
+                  <span className="font-mono text-[0.65rem] text-parchment-mute tracking-widest2 shrink-0">
                     {String(active + 1).padStart(2, "0")} /{" "}
                     {String(highlights.length).padStart(2, "0")}
                   </span>
                 </div>
+
                 <h3 className="display-md text-parchment max-w-2xl">
                   {current.title}
                 </h3>
-                <p className="mt-5 text-parchment-dim leading-relaxed text-base lg:text-lg max-w-2xl">
-                  {current.context}
-                </p>
-                <div className="mt-auto pt-8">
-                  <div className="flex flex-wrap gap-2 mb-4">
-                    {current.skillTags.slice(0, 6).map((t) => (
-                      <span key={t} className="tag-chip">
-                        {t}
-                      </span>
-                    ))}
-                  </div>
-                  <p className="font-mono text-[0.7rem] text-parchment-mute tracking-widest2 uppercase">
-                    {current.company}
+
+                {/* Problem / Approach / Outcome — the real meat. Falls back to
+                    `context` if a particular highlight didn't get the richer
+                    treatment, so we never render an empty-looking card. */}
+                {current.problem || current.approach || current.outcome ? (
+                  <dl className="mt-7 grid gap-5 max-w-2xl">
+                    {current.problem && (
+                      <div>
+                        <dt className="eyebrow mb-1.5">Problem</dt>
+                        <dd className="text-parchment-dim leading-relaxed">
+                          {current.problem}
+                        </dd>
+                      </div>
+                    )}
+                    {current.approach && (
+                      <div>
+                        <dt className="eyebrow mb-1.5">Approach</dt>
+                        <dd className="text-parchment-dim leading-relaxed">
+                          {current.approach}
+                        </dd>
+                      </div>
+                    )}
+                    {current.outcome && (
+                      <div>
+                        <dt className="eyebrow mb-1.5">Outcome</dt>
+                        <dd className="text-parchment leading-relaxed">
+                          {current.outcome}
+                        </dd>
+                      </div>
+                    )}
+                  </dl>
+                ) : (
+                  <p className="mt-5 text-parchment-dim leading-relaxed text-base lg:text-lg max-w-2xl">
+                    {current.context}
                   </p>
+                )}
+
+                {/* Footer: tools + soft skills, separated by a hairline */}
+                <div className="mt-8 pt-6 border-t hairline">
+                  {current.skillTags.length > 0 && (
+                    <div className="flex flex-wrap gap-2 mb-3">
+                      {current.skillTags.slice(0, 6).map((t) => (
+                        <span key={t} className="tag-chip">
+                          {t}
+                        </span>
+                      ))}
+                    </div>
+                  )}
+                  {current.softSkills.length > 0 && (
+                    <p className="font-mono text-[0.65rem] text-parchment-mute tracking-widest2 uppercase">
+                      {current.softSkills.join(" · ")}
+                    </p>
+                  )}
                 </div>
               </motion.article>
             </AnimatePresence>
