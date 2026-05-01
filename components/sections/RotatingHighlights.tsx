@@ -10,6 +10,7 @@ import { useCallback, useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import type { Highlight } from "@/data/profile";
 import { SectionHeader } from "@/components/ui/SectionHeader";
+import { SectionBridge } from "@/components/ui/SectionBridge";
 
 const ROTATE_MS = 5500;
 
@@ -35,7 +36,8 @@ export function RotatingHighlights({ highlights }: { highlights: Highlight[] }) 
       className="relative bg-dotgrid-soft border-t hairline"
       aria-label="Signature highlights"
     >
-      <div className="max-w-[1280px] mx-auto px-6 lg:px-10 py-24 lg:py-32">
+      <SectionBridge index="01" />
+      <div className="max-w-[1280px] mx-auto px-6 lg:px-10 py-16 lg:py-24">
         <SectionHeader
           index="01"
           eyebrow="Highlights"
@@ -44,7 +46,7 @@ export function RotatingHighlights({ highlights }: { highlights: Highlight[] }) 
         />
 
         <div
-          className="mt-12 grid lg:grid-cols-12 gap-10 lg:gap-12 items-stretch"
+          className="mt-10 grid lg:grid-cols-12 gap-10 lg:gap-12 items-stretch"
           onMouseEnter={() => setPaused(true)}
           onMouseLeave={() => setPaused(false)}
           onFocus={() => setPaused(true)}

@@ -50,6 +50,10 @@ module.exports = {
         "ticker-rise": "tickerRise 0.7s cubic-bezier(0.22, 1, 0.36, 1) both",
         "fade-up": "fadeUp 0.7s cubic-bezier(0.22, 1, 0.36, 1) both",
         "shimmer": "shimmer 8s linear infinite",
+        // Slow vertical drift used by the hero scroll cue and the editorial
+        // section bridges. Goes ~12px down → fade out → reset; reads as a
+        // gentle invitation rather than a pulsing button.
+        "scroll-hint": "scrollHint 2.4s ease-in-out infinite",
       },
       keyframes: {
         tickerRise: {
@@ -63,6 +67,10 @@ module.exports = {
         shimmer: {
           "0%": { backgroundPosition: "0% 50%" },
           "100%": { backgroundPosition: "200% 50%" },
+        },
+        scrollHint: {
+          "0%, 100%": { opacity: "0.2", transform: "translateY(0)" },
+          "50%": { opacity: "0.9", transform: "translateY(8px)" },
         },
       },
     },

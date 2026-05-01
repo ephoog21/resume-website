@@ -10,6 +10,7 @@ import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import type { CaseStudy, Experience } from "@/data/profile";
 import { SectionHeader } from "@/components/ui/SectionHeader";
+import { SectionBridge } from "@/components/ui/SectionBridge";
 
 type Props = { studies: CaseStudy[]; experience: Experience[] };
 
@@ -49,7 +50,8 @@ export function CaseStudyGrid({ studies, experience }: Props) {
       className="relative bg-ink border-t hairline"
       aria-label="Case studies and signature work"
     >
-      <div className="max-w-[1280px] mx-auto px-6 lg:px-10 py-24 lg:py-32">
+      <SectionBridge index="04" />
+      <div className="max-w-[1280px] mx-auto px-6 lg:px-10 py-16 lg:py-24">
         <SectionHeader
           index="04"
           eyebrow="Work"
@@ -58,7 +60,7 @@ export function CaseStudyGrid({ studies, experience }: Props) {
         />
 
         {/* Feature row — two large cards */}
-        <div className="mt-12 grid lg:grid-cols-2 gap-6">
+        <div className="mt-10 grid lg:grid-cols-2 gap-6">
           {features.map((s, i) => (
             <CaseCard
               key={s.id}

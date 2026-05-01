@@ -9,6 +9,7 @@ import { useMemo, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import type { SkillCluster, Experience } from "@/data/profile";
 import { SectionHeader } from "@/components/ui/SectionHeader";
+import { SectionBridge } from "@/components/ui/SectionBridge";
 
 type Props = { clusters: SkillCluster[]; experience: Experience[] };
 
@@ -61,7 +62,8 @@ export function SkillMatrix({ clusters, experience }: Props) {
       className="relative bg-dotgrid-soft border-t hairline"
       aria-label="Capabilities and skills"
     >
-      <div className="max-w-[1280px] mx-auto px-6 lg:px-10 py-24 lg:py-32">
+      <SectionBridge index="03" />
+      <div className="max-w-[1280px] mx-auto px-6 lg:px-10 py-16 lg:py-24">
         <SectionHeader
           index="03"
           eyebrow="Capabilities"
@@ -97,7 +99,7 @@ export function SkillMatrix({ clusters, experience }: Props) {
         </div>
 
         {/* Cluster grid */}
-        <div className="mt-12 grid lg:grid-cols-2 gap-x-12 gap-y-10">
+        <div className="mt-10 grid lg:grid-cols-2 gap-x-12 gap-y-10">
           {clusters.map((cluster) => (
             <div key={cluster.cluster} className="border-t hairline pt-6">
               <h3 className="display-md text-parchment mb-4">

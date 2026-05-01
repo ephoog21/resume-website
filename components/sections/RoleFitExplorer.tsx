@@ -10,6 +10,7 @@ import { useState, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import type { RoleFit, CaseStudy } from "@/data/profile";
 import { SectionHeader } from "@/components/ui/SectionHeader";
+import { SectionBridge } from "@/components/ui/SectionBridge";
 
 type Props = { roleFit: RoleFit[]; caseStudies: CaseStudy[] };
 
@@ -33,7 +34,8 @@ export function RoleFitExplorer({ roleFit, caseStudies }: Props) {
       className="relative bg-dotgrid-soft border-t hairline"
       aria-label="Role fit explorer"
     >
-      <div className="max-w-[1280px] mx-auto px-6 lg:px-10 py-24 lg:py-32">
+      <SectionBridge index="05" />
+      <div className="max-w-[1280px] mx-auto px-6 lg:px-10 py-16 lg:py-24">
         <SectionHeader
           index="05"
           eyebrow="Role fit"
@@ -41,7 +43,7 @@ export function RoleFitExplorer({ roleFit, caseStudies }: Props) {
           intro="The work spans nine adjacent role families. Pick one to see the matching positioning, the strongest evidence, and the case studies that apply."
         />
 
-        <div className="mt-12 grid lg:grid-cols-12 gap-10">
+        <div className="mt-10 grid lg:grid-cols-12 gap-10">
           {/* Theme rail */}
           <nav
             className="lg:col-span-4"

@@ -13,6 +13,7 @@ import { useMemo, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import type { Experience, Education } from "@/data/profile";
 import { SectionHeader } from "@/components/ui/SectionHeader";
+import { SectionBridge } from "@/components/ui/SectionBridge";
 
 type Props = { experience: Experience[]; education: Education[] };
 
@@ -72,7 +73,8 @@ export function ExperienceTimeline({ experience, education }: Props) {
       className="relative bg-ink border-t hairline"
       aria-label="Experience timeline"
     >
-      <div className="max-w-[1280px] mx-auto px-6 lg:px-10 py-24 lg:py-32">
+      <SectionBridge index="02" />
+      <div className="max-w-[1280px] mx-auto px-6 lg:px-10 py-16 lg:py-24">
         <SectionHeader
           index="02"
           eyebrow="Career"
@@ -104,7 +106,7 @@ export function ExperienceTimeline({ experience, education }: Props) {
         {/* Timeline. Constrained max-width so the cards sit in roughly the
             same horizontal band as the section headline — keeps the editorial
             rhythm. */}
-        <ol className="mt-12 relative max-w-5xl">
+        <ol className="mt-10 relative max-w-5xl">
           {/* Vertical spine */}
           <div
             className="absolute top-2 bottom-2 left-[7.5rem] w-px bg-gradient-to-b from-amber-glow/40 via-amber-glow/15 to-transparent hidden md:block"

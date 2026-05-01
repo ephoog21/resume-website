@@ -4,6 +4,7 @@
 
 import type { ProfileData } from "@/data/profile";
 import { SectionHeader } from "@/components/ui/SectionHeader";
+import { SectionBridge } from "@/components/ui/SectionBridge";
 
 type Props = { profile: ProfileData["profile"] };
 
@@ -18,6 +19,7 @@ export function ContactSection({ profile }: Props) {
       className="relative bg-ink border-t hairline"
       aria-label="Contact"
     >
+      <SectionBridge index="06" />
       {/* Soft amber wash to close the page warmly */}
       <div
         className="absolute inset-0 pointer-events-none"
@@ -27,7 +29,7 @@ export function ContactSection({ profile }: Props) {
         }}
         aria-hidden
       />
-      <div className="relative max-w-[1280px] mx-auto px-6 lg:px-10 py-24 lg:py-32">
+      <div className="relative max-w-[1280px] mx-auto px-6 lg:px-10 py-16 lg:py-24">
         <SectionHeader
           index="06"
           eyebrow="Contact"
@@ -35,7 +37,7 @@ export function ContactSection({ profile }: Props) {
           intro="Best ways to reach me are below. I read every note — most replies land within a day."
         />
 
-        <div className="mt-14 grid lg:grid-cols-12 gap-10 lg:gap-12">
+        <div className="mt-10 grid lg:grid-cols-12 gap-10 lg:gap-12">
           {/* Contact methods */}
           <div className="lg:col-span-7">
             <ul className="border-t hairline">
