@@ -52,14 +52,9 @@ export function CaseStudyGrid({ studies, experience }: Props) {
       <div className="max-w-[1280px] mx-auto px-6 lg:px-10 py-24 lg:py-32">
         <SectionHeader
           index="04"
-          eyebrow="Signature work"
-          title={
-            <>
-              Case studies, told with{" "}
-              <span className="serif-italic text-amber-glow">problem first.</span>
-            </>
-          }
-          intro="Each story follows the same arc: what was broken, what got built, what changed. No mystery, no metric soup."
+          eyebrow="Work"
+          title="Selected work"
+          intro="Each story follows the same arc: what was broken, what got built, what changed."
         />
 
         {/* Feature row — two large cards */}

@@ -12,14 +12,9 @@ export function SiteNav() {
       <div className="max-w-[1280px] mx-auto px-6 lg:px-10 h-14 flex items-center justify-between">
         <Link
           href="#top"
-          className="font-display text-lg tracking-tight hover:text-amber-glow transition-colors flex items-center"
+          className="font-display text-lg tracking-tight hover:text-amber-glow transition-colors"
         >
           {profile.profile.name}
-          {/* Subtitle is decorative — hide on small screens so the nav stays
-              single-line on a 390px phone. */}
-          <span className="hidden lg:inline ml-2 font-mono text-[0.7rem] text-parchment-mute tracking-widest2">
-            ▸ ANALYTICS · AI · BI
-          </span>
         </Link>
         <div className="hidden md:flex items-center gap-7 text-sm text-parchment-dim">
           <a href="#highlights" className="hover:text-amber-glow transition-colors">Highlights</a>

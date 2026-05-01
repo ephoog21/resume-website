@@ -38,14 +38,9 @@ export function RotatingHighlights({ highlights }: { highlights: Highlight[] }) 
       <div className="max-w-[1280px] mx-auto px-6 lg:px-10 py-24 lg:py-32">
         <SectionHeader
           index="01"
-          eyebrow="Signature outcomes"
-          title={
-            <>
-              Quantified wins,{" "}
-              <span className="serif-italic text-amber-glow">not slogans.</span>
-            </>
-          }
-          intro="A rotating cut of the work that defines the practice — every claim ties to a real engagement, real data, and a real outcome."
+          eyebrow="Highlights"
+          title="Selected highlights"
+          intro="A rotating cut of the work. Every entry ties to a real engagement and a real outcome."
         />
 
         <div

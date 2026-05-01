@@ -37,13 +37,8 @@ export function RoleFitExplorer({ roleFit, caseStudies }: Props) {
         <SectionHeader
           index="05"
           eyebrow="Role fit"
-          title={
-            <>
-              Pick a role.{" "}
-              <span className="serif-italic text-amber-glow">See the proof.</span>
-            </>
-          }
-          intro="The work spans nine adjacent role families. Select one — the page surfaces the matching positioning, the strongest evidence, and the case studies that best apply."
+          title="Where I fit on a team"
+          intro="The work spans nine adjacent role families. Pick one to see the matching positioning, the strongest evidence, and the case studies that apply."
         />
 
         <div className="mt-12 grid lg:grid-cols-12 gap-10">

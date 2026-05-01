@@ -30,15 +30,9 @@ export function ContactSection({ profile }: Props) {
       <div className="relative max-w-[1280px] mx-auto px-6 lg:px-10 py-24 lg:py-32">
         <SectionHeader
           index="06"
-          eyebrow="Get in touch"
-          title={
-            <>
-              Open to{" "}
-              <span className="serif-italic text-amber-glow">senior analytics,</span>{" "}
-              BI leadership, AI strategy, GTM analytics, and consulting.
-            </>
-          }
-          intro="Best ways to reach me below. I read every note — most replies land within a day."
+          eyebrow="Contact"
+          title="Get in touch"
+          intro="Best ways to reach me are below. I read every note — most replies land within a day."
         />
 
         <div className="mt-14 grid lg:grid-cols-12 gap-10 lg:gap-12">
@@ -64,28 +58,9 @@ export function ContactSection({ profile }: Props) {
               <ContactRow label="Based" value={profile.location} />
             </ul>
 
-            <div className="mt-10 flex flex-wrap gap-3">
-              <a
-                href={`mailto:${profile.email}?subject=Hello%20Ed`}
-                className="btn-primary"
-              >
-                Start a conversation
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden>
-                  <path
-                    d="M3 7h8m-3-3 3 3-3 3"
-                    stroke="currentColor"
-                    strokeWidth="1.5"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </a>
-              {/*
-                Placeholder for the resume PDF. Drop the actual file at
-                /public/resume.pdf and the link works automatically.
-              */}
+            <div className="mt-10">
               <a href="/resume.pdf" className="btn-ghost">
-                Download resume PDF
+                Download r&eacute;sum&eacute; PDF
               </a>
             </div>
           </div>
@@ -99,11 +74,6 @@ export function ContactSection({ profile }: Props) {
               </p>
             </div>
 
-            <p className="mt-8 text-sm text-parchment-mute leading-relaxed">
-              Looking for a fractional engagement instead of a full-time role?
-              That works too — most current consulting is scoped in 4–12 week
-              blocks with clear deliverables.
-            </p>
           </aside>
         </div>
 

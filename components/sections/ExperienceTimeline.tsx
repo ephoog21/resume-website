@@ -76,14 +76,8 @@ export function ExperienceTimeline({ experience, education }: Props) {
         <SectionHeader
           index="02"
           eyebrow="Career"
-          title={
-            <>
-              Eight years across{" "}
-              <span className="serif-italic text-amber-glow">analytics, GTM,</span>{" "}
-              and applied AI.
-            </>
-          }
-          intro="From BI Analyst II to Senior Strategic Analyst to independent consultant — building the data foundation, the dashboards on top, and now the AI workflows that retire the manual layer entirely."
+          title="Experience"
+          intro="From BI Analyst II to Senior Strategic Analyst to independent consultant — eight years across analytics, GTM, and applied AI."
         />
 
         {/* Filter chips */}

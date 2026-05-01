@@ -64,14 +64,9 @@ export function SkillMatrix({ clusters, experience }: Props) {
       <div className="max-w-[1280px] mx-auto px-6 lg:px-10 py-24 lg:py-32">
         <SectionHeader
           index="03"
-          eyebrow="Capability matrix"
-          title={
-            <>
-              The toolkit, organized by{" "}
-              <span className="serif-italic text-amber-glow">how it gets used.</span>
-            </>
-          }
-          intro="Tap any capability to see where it shows up in real engagements. Multi-select to layer themes — every match traces back to an actual deliverable."
+          eyebrow="Capabilities"
+          title="What I work with"
+          intro="Tap any capability to see where it shows up in real engagements. Multi-select to layer themes."
         />
 
         {/* Selection bar */}
