@@ -37,7 +37,7 @@ export default function HomePage() {
         <Hero data={profile} />
         <RotatingHighlights highlights={profile.highlights} />
         <ExperienceTimeline experience={profile.experience} education={profile.education} />
-        <SkillMatrix clusters={profile.skillClusters} experience={profile.experience} />
+        <SkillMatrix clusters={profile.skillClusters} />
         <CaseStudyGrid studies={profile.caseStudies} experience={profile.experience} />
         <RoleFitExplorer roleFit={profile.roleFit} caseStudies={profile.caseStudies} />
         <ContactSection profile={profile.profile} />

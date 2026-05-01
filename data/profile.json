@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-01T19:02:56.642Z",
+  "generatedAt": "2026-05-01T20:24:15.516Z",
   "profile": {
     "name": "Ed Hoogasian",
     "location": "Boston, MA / Remote",
@@ -753,6 +753,45 @@
           ]
         },
         {
+          "name": "Dashboard Design",
+          "category": "BI / Visualization",
+          "detail": "audience-aware layouts; layered drilldown; executive-to-IC views",
+          "evidence": "ACH005, ACH014 — Tableau dashboards consumed exec-to-IC",
+          "roleIds": [
+            "EXP001",
+            "EXP002",
+            "EXP006"
+          ]
+        },
+        {
+          "name": "Self-Service BI & Enablement",
+          "category": "BI / Visualization",
+          "detail": "BI adoption; metric documentation; enablement; semantic layer hygiene",
+          "evidence": "Implied in Mimecast partner-program adoption + analytics-engineering work",
+          "roleIds": [
+            "EXP001",
+            "EXP002"
+          ]
+        },
+        {
+          "name": "Forecasting",
+          "category": "Analytics",
+          "detail": "pipeline forecasting; demand signal modeling; planning analytics",
+          "evidence": "ACH012 — forecasting included in earnings-call-grade data products",
+          "roleIds": [
+            "EXP006"
+          ]
+        },
+        {
+          "name": "Conversion & Driver Analysis",
+          "category": "Analytics",
+          "detail": "qualification frameworks; outreach guidance; cohort-level driver analysis",
+          "evidence": "ACH004 — 15%+ conversion lift from qualification work",
+          "roleIds": [
+            "EXP004"
+          ]
+        },
+        {
           "name": "Excel / PowerPoint",
           "category": "Tools / Communication",
           "detail": "advanced analysis; executive presentations; decks; operating rhythms",
@@ -778,6 +817,43 @@
             "EXP003",
             "EXP005",
             "EXP006"
+          ]
+        },
+        {
+          "name": "Segmentation",
+          "category": "GTM Analytics",
+          "detail": "ICP definition; account scoring; cohort grouping; firmographic segmentation",
+          "evidence": "ACH001 / STORY002 — ICP work driving $5.5M+ ARR",
+          "roleIds": [
+            "EXP003",
+            "EXP004"
+          ]
+        },
+        {
+          "name": "TAM / Whitespace Analysis",
+          "category": "GTM / Strategy",
+          "detail": "addressable-market sizing; account/building granularity; market penetration; partnership planning",
+          "evidence": "ACH003 / STORY004 — TAM modeled to building-level detail",
+          "roleIds": [
+            "EXP004"
+          ]
+        },
+        {
+          "name": "Territory & Quota Planning",
+          "category": "GTM / RevOps",
+          "detail": "territory design; quota modeling; coverage planning; capacity",
+          "evidence": "ACH003 — TAM dataset enabled territory/quota planning",
+          "roleIds": [
+            "EXP004"
+          ]
+        },
+        {
+          "name": "Funnel Analytics & Attribution",
+          "category": "GTM / Marketing Analytics",
+          "detail": "lead-to-revenue funnel; campaign attribution; multi-touch; conversion modeling",
+          "evidence": "ACH013 / STORY010 — lead-to-revenue funnel foundation",
+          "roleIds": [
+            "EXP005"
           ]
         },
         {
@@ -812,6 +888,16 @@
           ]
         },
         {
+          "name": "Competitive Intelligence",
+          "category": "Strategy",
+          "detail": "ecosystem mapping; battlecards; messaging/positioning; pricing/packaging research",
+          "evidence": "Jellyfish/Product Manager AI; Mimecast early BI",
+          "roleIds": [
+            "EXP017",
+            "EXP006"
+          ]
+        },
+        {
           "name": "Salesforce",
           "category": "Tools / GTM",
           "detail": "CRM migration; partner program integration; GTM funnel reporting",
@@ -819,16 +905,6 @@
           "roleIds": [
             "EXP002",
             "EXP005",
-            "EXP006"
-          ]
-        },
-        {
-          "name": "Competitive Intelligence",
-          "category": "Strategy",
-          "detail": "ecosystem mapping; battlecards; messaging/positioning; pricing/packaging research",
-          "evidence": "Jellyfish/Product Manager AI; Mimecast early BI",
-          "roleIds": [
-            "EXP017",
             "EXP006"
           ]
         }
@@ -851,6 +927,51 @@
           "category": "AI",
           "detail": "prompt libraries; routing logic; versioned prompts; consistency checks",
           "evidence": "Consulting and AI-focused variants",
+          "roleIds": [
+            "EXP001"
+          ]
+        },
+        {
+          "name": "RAG (Retrieval-Augmented Generation)",
+          "category": "AI / LLM",
+          "detail": "context retrieval; document grounding; hybrid search patterns",
+          "evidence": "ACH010 — RAG concepts in LLM workflow stack",
+          "roleIds": [
+            "EXP001"
+          ]
+        },
+        {
+          "name": "Agentic Workflows",
+          "category": "AI / LLM",
+          "detail": "multi-step orchestration; routing logic; tool use; human-in-the-loop checkpoints",
+          "evidence": "Differentiator + STORY007 — agentic patterns and routing logic",
+          "roleIds": [
+            "EXP001"
+          ]
+        },
+        {
+          "name": "LLM Evals & Guardrails",
+          "category": "AI / LLM",
+          "detail": "evaluation harnesses; quality gates; safety/policy guardrails; output validation",
+          "evidence": "ACH010 / STORY007 — evals and guardrails on production LLM workflows",
+          "roleIds": [
+            "EXP001"
+          ]
+        },
+        {
+          "name": "Structured Extraction & Document Workflows",
+          "category": "AI / LLM",
+          "detail": "schema-guided extraction; intake/triage; document lifecycle automation",
+          "evidence": "ACH008, ACH010 — secure intake portal + LLM extraction patterns",
+          "roleIds": [
+            "EXP001"
+          ]
+        },
+        {
+          "name": "Contextual Memory & Session Layering",
+          "category": "AI / LLM",
+          "detail": "stateful sessions; memory hierarchies; long-running task continuity",
+          "evidence": "ACH010 — contextual memory/session layering in LLM stack",
           "roleIds": [
             "EXP001"
           ]
@@ -950,6 +1071,16 @@
           ]
         },
         {
+          "name": "Metric Governance",
+          "category": "Analytics Engineering",
+          "detail": "definition discipline; standardized metrics; data contracts; quality checks",
+          "evidence": "ACH011, ACH014 — standardized definitions and quality checks",
+          "roleIds": [
+            "EXP001",
+            "EXP004"
+          ]
+        },
+        {
           "name": "Analytics Engineering",
           "category": "Technical / Data",
           "detail": "instrumentation; data modeling; dbt-style transformations; reusable data products",
@@ -981,7 +1112,7 @@
       ]
     },
     {
-      "cluster": "Executive Communication & Leadership",
+      "cluster": "Leadership & Communication",
       "skills": [
         {
           "name": "Stakeholder Management",
@@ -992,6 +1123,17 @@
             "EXP001",
             "EXP002",
             "EXP003"
+          ]
+        },
+        {
+          "name": "Cross-Functional Facilitation",
+          "category": "Leadership",
+          "detail": "discovery; alignment across marketing/sales/product/CS/ops; consensus building",
+          "evidence": "ACH001, ACH013 — pulled qualitative signal across multiple orgs",
+          "roleIds": [
+            "EXP003",
+            "EXP004",
+            "EXP005"
           ]
         },
         {
@@ -1012,6 +1154,26 @@
           "roleIds": [
             "EXP001",
             "EXP007"
+          ]
+        },
+        {
+          "name": "Operating Rhythm Design",
+          "category": "Analytics Leadership",
+          "detail": "weekly/monthly review cadences; KPI rituals; recurring leadership reporting",
+          "evidence": "ACH005, ACH014 — daily/weekly cadence from board to IC",
+          "roleIds": [
+            "EXP001",
+            "EXP002"
+          ]
+        },
+        {
+          "name": "Data Storytelling",
+          "category": "Executive Communication",
+          "detail": "executive narrative; insight framing; audience-aware presentation",
+          "evidence": "Differentiator + ACH012 (earnings-call references)",
+          "roleIds": [
+            "EXP002",
+            "EXP006"
           ]
         }
       ]
@@ -1065,6 +1227,15 @@
           "category": "Strategy / Product",
           "detail": "SKU rationalization; profitability analysis; packaging transition readiness",
           "evidence": "Mimecast pricing/packaging overhaul",
+          "roleIds": [
+            "EXP002"
+          ]
+        },
+        {
+          "name": "Pricing Telemetry & SKU Rationalization",
+          "category": "Strategy",
+          "detail": "profitability modeling; bundle design; product-launch telemetry",
+          "evidence": "ACH007 / STORY008 — hundreds of SKUs consolidated into bundles",
           "roleIds": [
             "EXP002"
           ]

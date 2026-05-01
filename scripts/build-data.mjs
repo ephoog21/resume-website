@@ -110,28 +110,36 @@ const education = raw.experience
 const clusterMap = {
   "Analytics & BI": [
     "SQL","Tableau","Power BI","Looker","KPI Frameworks","Executive Reporting",
-    "Excel / PowerPoint",
+    "Dashboard Design","Self-Service BI & Enablement","Forecasting",
+    "Conversion & Driver Analysis","Excel / PowerPoint",
   ],
   "GTM / RevOps / Customer Analytics": [
-    "GTM Analytics","Market Intelligence","Partner Program Analytics",
-    "Customer Success Analytics","Salesforce","Competitive Intelligence",
+    "GTM Analytics","Segmentation","TAM / Whitespace Analysis",
+    "Territory & Quota Planning","Funnel Analytics & Attribution",
+    "Market Intelligence","Partner Program Analytics",
+    "Customer Success Analytics","Competitive Intelligence","Salesforce",
   ],
   "AI / LLM / Automation": [
-    "AI/LLM Workflows","Prompt Engineering","NLP / Unstructured Data Analysis",
-    "Automation","No-code / Low-code","API Integration",
+    "AI/LLM Workflows","Prompt Engineering","RAG (Retrieval-Augmented Generation)",
+    "Agentic Workflows","LLM Evals & Guardrails",
+    "Structured Extraction & Document Workflows","Contextual Memory & Session Layering",
+    "NLP / Unstructured Data Analysis","Automation","No-code / Low-code",
+    "API Integration",
   ],
   "Data Engineering & Analytics Engineering": [
     "Snowflake","dbt","Data Warehousing","ETL/ELT","Data Quality & Validation",
-    "Analytics Engineering","Databricks","Python",
+    "Metric Governance","Analytics Engineering","Databricks","Python",
   ],
-  "Executive Communication & Leadership": [
-    "Stakeholder Management","Discovery & Facilitation","Project / Program Ownership",
+  "Leadership & Communication": [
+    "Stakeholder Management","Cross-Functional Facilitation",
+    "Discovery & Facilitation","Project / Program Ownership",
+    "Operating Rhythm Design","Data Storytelling",
   ],
   "Product & Workflow Systems": [
     "Product Strategy","Technical Product Management","Jira","React",
   ],
   "Strategy & Pricing": [
-    "Pricing & Packaging Analysis",
+    "Pricing & Packaging Analysis","Pricing Telemetry & SKU Rationalization",
   ],
 };
 
